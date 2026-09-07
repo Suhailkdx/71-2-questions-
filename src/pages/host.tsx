@@ -81,7 +81,7 @@ export default function HostPage() {
 
               <div className="mx-auto flex w-full max-w-sm flex-col lg:mr-0">
                 <img
-                  src="/assets/uploads/port-1-enhanced.png"
+                  src="/assets/uploads/port%201.jpeg"
                   alt="Priscilla Beaton"
                   className="aspect-[4/5] w-full rounded-3xl border border-border object-cover object-center shadow-md"
                 />

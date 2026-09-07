@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "label": "Initiative",
+    "heading": "The Giving Half",
+    "subheading": "The charitable side of Seven and a Half"
+  },
+  "intro": {
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "The Giving Half is the charitable side of Seven and a Half — created to support organizations that rescue, protect, and care for animals."
+      }
+      
+    ],
+    "closing": "More details coming soon."
+  }
+}

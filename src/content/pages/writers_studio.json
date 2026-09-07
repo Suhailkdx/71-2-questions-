@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Writers' Studio — Seven and a Half",
+    "description": "Work one-on-one with an accomplished journalist or editor. Learn to use AI as an editorial tool without letting it become your voice. Develop an original, publication-ready piece from idea to final edit."
+  },
+  "hero": {
+    "label": "Writers' Studio",
+    "heading": "Find your voice in the age of AI",
+    "subheading": "Work one-on-one with an accomplished journalist or editor. Use AI as a tool not a ghostwriter. Develop an original piece from idea to published byline."
+  },
+  "pillars": [
+    {
+      "id": "p1",
+      "heading": "Write with a real writer",
+      "body": "Work one-on-one or in a small group with an experienced journalist, editor, or published author. Every participant is matched with an Editorial Mentor whose background fits their project."
+    },
+    {
+      "id": "p2",
+      "heading": "Use AI without losing your voice",
+      "body": "Learn where AI can help brainstorming, research organisation, interview preparation, revision prompts and where human judgment, reporting, originality, and style need to take over."
+    },
+    {
+      "id": "p3",
+      "heading": "Create something publishable",
+      "body": "Develop an interview, reported article, personal essay, cultural commentary, or profile. The goal is a finished piece you are proud to put your name on."
+    },
+    {
+      "id": "p4",
+      "heading": "Earn a byline",
+      "body": "Exceptional work may be selected for publication in New Voices, the Seven and a Half emerging-writers section. Publication is an editorial possibility, not a guarantee which is what makes it meaningful."
+    }
+  ],
+  "programs": {
+    "label": "Program options",
+    "heading": "Choose your track",
+    "subheading": "All programs are for writers 18 and older. Each includes direct sessions with your Editorial Mentor and structured feedback at every stage.",
+    "items": [
+      {
+        "id": "prog1",
+        "name": "Editorial Consultation",
+        "duration": "One session",
+        "price": "$75",
+        "description": "A single focused session with an Editorial Mentor. Bring a draft, a pitch, or an idea. Leave with a clear editorial direction and a concrete next step.",
+        "features": [
+          {
+            "id": "f1",
+            "text": "60-minute one-on-one session"
+          },
+          {
+            "id": "f2",
+            "text": "Written editorial notes"
+          },
+          {
+            "id": "f3",
+            "text": "AI-use guidance for your specific project"
+          }
+        ],
+        "ctaLabel": "Apply for a consultation",
+        "featured": false
+      },
+      {
+        "id": "prog2",
+        "name": "Article Program",
+        "duration": "Four sessions",
+        "price": "$480",
+        "description": "Four sessions to develop a single piece from first idea to final draft. Ideal for a reported article, personal essay, or interview. The most popular track.",
+        "features": [
+          {
+            "id": "f1",
+            "text": "Four 60-minute sessions"
+          },
+          {
+            "id": "f2",
+            "text": "Feedback on each draft"
+          },
+          {
+            "id": "f3",
+            "text": "AI-use workshop included"
+          },
+          {
+            "id": "f4",
+            "text": "Editorial review for New Voices consideration"
+          }
+        ],
+        "ctaLabel": "Apply for the Article Program",
+        "featured": true
+      },
+      {
+        "id": "prog3",
+        "name": "Idea to Byline",
+        "duration": "Eight sessions",
+        "price": "$880",
+        "description": "The full program. From raw idea to publication-ready piece, with structured editorial support at every stage. For writers who want to go deep.",
+        "features": [
+          {
+            "id": "f1",
+            "text": "Eight 60-minute sessions"
+          },
+          {
+            "id": "f2",
+            "text": "Full manuscript development"
+          },
+          {
+            "id": "f3",
+            "text": "AI-use workshop included"
+          },
+          {
+            "id": "f4",
+            "text": "Priority editorial review for New Voices"
+          },
+          {
+            "id": "f5",
+            "text": "Mentor introduction letter on completion"
+          }
+        ],
+        "ctaLabel": "Apply for Idea to Byline",
+        "featured": false
+      }
+    ]
+  },
+  "mentors": {
+    "label": "Editorial Mentors",
+    "heading": "Who you will work with",
+    "body": "Every Editorial Mentor is an accomplished journalist, editor, or published author. They are matched to participants based on subject expertise, writing form, and project type not just availability.",
+    "ctaLabel": "Join as an Editorial Mentor",
+    "ctaHref": "/newsletter"
+  },
+  "aiNote": {
+    "label": "Our approach to AI",
+    "heading": "AI is a tool. You are the writer.",
+    "body": "The Writers' Studio does not teach AI writing. It teaches writing in a world where AI exists. Participants learn to use AI for brainstorming, research organisation, interview preparation, and revision and to recognise exactly where human judgment, voice, and originality need to take over. Every finished piece is the author's own work."
+  },
+  "apply": {
+    "heading": "Ready to start?",
+    "subheading": "Applications are reviewed on a rolling basis. Tell us about your project and the kind of writing you want to do.",
+    "writerCtaLabel": "Apply as a Writer",
+    "writerCtaHref": "/newsletter",
+    "mentorCtaLabel": "Join the Writers' Room",
+    "mentorCtaHref": "/newsletter"
+  }
+}

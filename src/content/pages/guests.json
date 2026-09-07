@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "label": "The Guests",
+    "heading": "The People Behind the Questions",
+    "subheading": "Entrepreneurs, artists, scientists, and leaders — each one willing to answer the half question."
+  },
+  "guests": [
+    {
+      "id": "maya-chen",
+      "name": "Maya Chen",
+      "title": "Founder & Futurist",
+      "episode": "Ep. 47",
+      "episodeHref": "#",
+      "quote": "The companies that last are the ones that know they won't.",
+      "bio": "Maya Chen has founded three companies, sold two, and is currently building what she calls her 'final act' — a platform rethinking how institutions learn from failure."
+    },
+    {
+      "id": "james-okafor",
+      "name": "James Okafor",
+      "title": "Musician & Activist",
+      "episode": "Ep. 46",
+      "episodeHref": "#",
+      "quote": "Every song is a question the singer doesn't know how to ask out loud.",
+      "bio": "James Okafor has released seven albums and organized relief efforts across four continents. He believes music and justice are the same conversation."
+    },
+    {
+      "id": "priya-nair",
+      "name": "Dr. Priya Nair",
+      "title": "Neuroscientist",
+      "episode": "Ep. 45",
+      "episodeHref": "#",
+      "quote": "Rest isn't the absence of thought. It's thought at its most honest.",
+      "bio": "Dr. Priya Nair leads the Cognitive Rest Lab at MIT, studying what happens in the brain during idle states — and why those moments may be the most important of all."
+    },
+    {
+      "id": "tomas-reyes",
+      "name": "Tomás Reyes",
+      "title": "Architect & Urban Theorist",
+      "episode": "Ep. 44",
+      "episodeHref": "#",
+      "quote": "A city is a sentence that never ends. You just decide where to put the comma.",
+      "bio": "Tomás Reyes has designed public spaces in 22 cities and written extensively on how architecture shapes political identity."
+    },
+    {
+      "id": "lena-hoffmann",
+      "name": "Lena Hoffmann",
+      "title": "Climate Scientist",
+      "episode": "Ep. 43",
+      "episodeHref": "#",
+      "quote": "Pessimism is a luxury we can't afford. Optimism is a discipline.",
+      "bio": "Lena Hoffmann is a senior researcher at the Potsdam Institute and one of the lead authors of the 2025 Global Adaptation Report."
+    },
+    {
+      "id": "kwame-asante",
+      "name": "Kwame Asante",
+      "title": "Philosopher & Author",
+      "episode": "Ep. 42",
+      "episodeHref": "#",
+      "quote": "Changing your mind isn't weakness. It's the whole point of having one.",
+      "bio": "Kwame Asante is the author of four books on moral philosophy and a visiting fellow at Oxford. He is known for making ethics feel urgent and alive."
+    }
+  ]
+}

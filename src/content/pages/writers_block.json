@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Writer's Block — Seven and a Half",
+    "description": "One-on-one support for writers who are stuck, overwhelmed or struggling to start. Creative coaching, accountability and momentum from experienced writers and educators."
+  },
+  "hero": {
+    "label": "Writer's Block",
+    "heading": "Sometimes the hardest part of writing isn't the writing.",
+    "subheading": "It's getting started, staying motivated, meeting a deadline or finding your way through a difficult stretch."
+  },
+  "intro": {
+    "body": [
+      {
+        "id": "i1",
+        "text": "Writer's Block offers one-on-one support from experienced writers, educators and creative coaches. These conversations are designed to help students and adults talk through what is holding them back, organize overwhelming assignments or projects, rebuild confidence and create a realistic path forward."
+      },
+      {
+        "id": "i2",
+        "text": "Whether you are staring at a blank page, struggling with motivation, feeling overwhelmed by homework or trying to return to a project you once loved, you do not have to work through it alone."
+      }
+    ]
+  },
+  "helpList": {
+    "heading": "What visitors can receive help with",
+    "items": [
+      {
+        "id": "h1",
+        "text": "Getting started when they feel frozen"
+      },
+      {
+        "id": "h2",
+        "text": "Breaking homework or a writing project into manageable steps"
+      },
+      {
+        "id": "h3",
+        "text": "Building routines and accountability"
+      },
+      {
+        "id": "h4",
+        "text": "Managing deadlines and creative pressure"
+      },
+      {
+        "id": "h5",
+        "text": "Talking through an idea before writing"
+      },
+      {
+        "id": "h6",
+        "text": "Recovering confidence after criticism or rejection"
+      },
+      {
+        "id": "h7",
+        "text": "Returning to an abandoned article, novel or screenplay"
+      },
+      {
+        "id": "h8",
+        "text": "Balancing writing with school, work and everyday life"
+      },
+      {
+        "id": "h9",
+        "text": "Using AI to create momentum without having it do the work"
+      }
+    ]
+  },
+  "supportTypes": {
+    "heading": "Types of support",
+    "intro": "You could let visitors choose among:",
+    "items": [
+      {
+        "id": "s1",
+        "name": "Creative Reset",
+        "provider": "Writer, journalist or editor"
+      },
+      {
+        "id": "s2",
+        "name": "Homework Momentum",
+        "provider": "Teacher or academic writing coach"
+      },
+      {
+        "id": "s3",
+        "name": "Accountability Sessions",
+        "provider": "Writing or productivity coach"
+      },
+      {
+        "id": "s4",
+        "name": "Talk Through Your Idea",
+        "provider": "Mentor in the relevant writing field"
+      },
+      {
+        "id": "s5",
+        "name": "Career and Confidence",
+        "provider": "Established writer or industry mentor"
+      },
+      {
+        "id": "s6",
+        "name": "Screenwriter's Block",
+        "provider": "Screenwriter or story editor"
+      }
+    ]
+  },
+  "boundary": {
+    "heading": "Important boundary language",
+    "note": "Writer's Block provides educational, motivational and creative coaching. It is not therapy, mental-health counseling, medical treatment or crisis support. Coaches do not diagnose or treat mental-health conditions, complete assignments for participants or guarantee academic, professional or publishing outcomes. When a participant's needs fall outside the program's scope, we may recommend seeking support from an appropriately licensed professional.",
+    "minors": "For minors, parents should book and pay for the sessions, consent to participation and receive scheduling communications. Your coaches should also have instructions for escalating any safety or mental-health concern to you and the parent."
+  },
+  "cta": {
+    "heading": "You don't have to work through it alone.",
+    "body": "Book a session or reach out to tell us where you're stuck.",
+    "buttonLabel": "Book a session",
+    "buttonHref": "/newsletter"
+  }
+}

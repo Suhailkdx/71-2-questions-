@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "episodeLabel": "New Interview",
+    "episodeNumber": "",
+    "guestName": "Dante Miller",
+    "guestTitle": "Founder & Futurist",
+    "pullQuote": "Seven questions by Priscilla. One half question by AI. One conversation you couldn't have planned.",
+    "description": "An interview where mind meets machine.",
+    "ctaLabel": "Listen Now",
+    "ctaHref": "#listen"
+  },
+  "featuredEpisodes": {
+    "sectionLabel": "Featured Episodes",
+    "episodes": [
+      {
+        "id": "ep-dante",
+        "guestName": "Dante Miller",
+        "guestTitle": "",
+        "topic": "",
+        "duration": ""
+      },
+      {
+        "id": "ep-elliott",
+        "guestName": "Elliott O'Connor",
+        "guestTitle": "",
+        "topic": "",
+        "duration": ""
+      }
+    ]
+  },
+  "about": {
+    "sectionLabel": "About the Show",
+    "pullQuote": "Seven questions by Priscilla. One half question by AI. One conversation you couldn't have planned.",
+    "description": "Seven questions are carefully crafted by Priscilla Beaton, shaped by her curiosity about the person sitting across from her. The half question is different: it comes from AI. Unexpected, unpredictable, and entirely out of Priscilla's hands a question neither interviewer nor interviewee knows in advance.",
+    "hostName": "Hosted by Priscilla Beaton",
+    "hostTitle": "Interviewer & Creator"
+  },
+  "listen": {
+    "sectionLabel": "Listen On",
+    "platforms": [
+      {
+        "id": "spotify",
+        "name": "Spotify",
+        "href": "#"
+      },
+      {
+        "id": "apple",
+        "name": "Apple Podcasts",
+        "href": "#"
+      },
+      {
+        "id": "youtube",
+        "name": "YouTube",
+        "href": "#"
+      },
+      {
+        "id": "overcast",
+        "name": "Overcast",
+        "href": "#"
+      },
+      {
+        "id": "rss",
+        "name": "RSS Feed",
+        "href": "#"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Have someone we should interview?",
+    "subheading": "We're always looking for the next great conversation.",
+    "buttonLabel": "Pitch a Guest",
+    "buttonHref": "/contact"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "label": "Stay Connected",
+    "heading": "Get the Dispatch",
+    "subheading": "New episodes, guest announcements, and the occasional note from the host, delivered to your inbox."
+  },
+  "newsletter": {
+    "heading": "The Listener Dispatch",
+    "description": "No algorithms. No noise. Just a short note when something new drops — and sometimes a little extra from behind the scenes.",
+    "frequency": "Roughly twice a month. Unsubscribe any time.",
+    "placeholder": "your@email.com",
+    "buttonLabel": "Subscribe"
+  },
+  "pitch": {
+    "label": "Pitch a Guest",
+    "heading": "Know someone who should answer the half question?",
+    "description": "",
+    "fields": {
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "guestNamePlaceholder": "Guest's name",
+      "guestTitlePlaceholder": "Their title or role",
+      "whyPlaceholder": "Why should they be on the show? What's their half question?"
+    }
+  },
+  "contact": {
+    "label": "General Enquiries",
+    "heading": "Everything else",
+    "description": "Press, partnerships, licensing, or just a note — use this form.",
+    "email": "hello@7andahalfquestions.com"
+  }
+}

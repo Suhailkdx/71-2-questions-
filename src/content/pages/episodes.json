@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "label": "The Interviews",
+    "heading": "Questions",
+    "subheading": "Each conversation is seven questions. One you didn't see coming."
+  },
+  "episodes": [
+    {
+      "id": "ep-1",
+      "coverImage": "/airo-assets/images/pages/episodes/dante-miller-cover",
+      "guestName": "Dante Miller",
+      "guestTitle": "",
+      "topic": "",
+      "duration": "",
+      "date": "2026-09-04",
+      "comingSoon": false,
+      "platforms": [
+        {
+          "id": "spotify",
+          "label": "Spotify",
+          "href": "#"
+        },
+        {
+          "id": "apple",
+          "label": "Apple Podcasts",
+          "href": "#"
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "ep-2",
+      "coverImage": "/assets/uploads/conner.jpg",
+      "guestName": "Elliott O'Connor",
+      "guestTitle": "",
+      "topic": "",
+      "duration": "",
+      "date": "2026-09-04",
+      "comingSoon": true,
+      "platforms": [
+        {
+          "id": "spotify",
+          "label": "Spotify",
+          "href": "#"
+        },
+        {
+          "id": "apple",
+          "label": "Apple Podcasts",
+          "href": "#"
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube",
+          "href": "#"
+        }
+      ]
+    }
+  ]
+}

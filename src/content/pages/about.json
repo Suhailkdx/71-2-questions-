@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "label": "About the Show",
+    "heading": "An interview series where human depth meets machine curiosity.",
+    "subheading": "Seven questions by Priscilla Beaton. One half question by AI. One conversation you couldn't have planned."
+  },
+  "origin": {
+    "heading": "How it works",
+    "body": [
+      {
+        "id": "p1",
+        "text": "Seven questions are carefully crafted by Priscilla Beaton, shaped by her curiosity about the person sitting across from her. They explore the stories, ideas, ambitions, contradictions, and experiences that make each person who they are."
+      },
+      {
+        "id": "p2",
+        "text": "The half question is different. It comes from AI  unexpected, unpredictable, and entirely out of Priscilla's hands. Neither the interviewer nor the interviewee knows it in advance."
+      },
+      {
+        "id": "p3",
+        "text": "The result is a conversation that moves between the intentional and the unexpected. Seven questions by Priscilla. One half question by AI. One conversation you couldn't have planned."
+      }
+    ]
+  },
+  "halfQuestion": {
+    "heading": "The half question",
+    "pullQuote": "A question neither interviewer nor interviewee knows in advance.",
+    "aiLabel": "AI-generated",
+    "aiNote": "The half question comes from AI not written in advance, but generated from the conversation that just happened. It is entirely out of Priscilla's hands.",
+    "body": [
+      {
+        "id": "p1",
+        "text": "At the end of every interview, an AI reads the full transcript and generates a single question  one that couldn't have been written before the conversation began."
+      },
+      {
+        "id": "p2",
+        "text": "It is the wildcard. Unexpected and unpredictable. The question that arrives from the guest's own words, finding the thread nobody pulled."
+      },
+      {
+        "id": "p3",
+        "text": "Neither Priscilla nor the guest knows what it will be. That's the point."
+      }
+    ]
+  },
+  "host": {
+    "label": "Your Host",
+    "name": "Priscilla Beaton",
+    "title": "Creator & Host",
+    "bio": [
+      {
+        "id": "p1",
+        "text": "Priscilla Beaton created Seven and a Half as a space for conversations that move between the intentional and the unexpected."
+      },
+      {
+        "id": "p2",
+        "text": "She hosts every episode herself, reads every guest pitch, and still finds the half question surprising every single time."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "id": "s1",
+      "value": "2",
+      "label": "Episodes"
+    },
+    {
+      "id": "s2",
+      "value": "coming soon",
+      "label": "Monthly Listeners"
+    },
+    {
+      "id": "s3",
+      "value": "coming soon",
+      "label": "Countries"
+    },
+    {
+      "id": "s4",
+      "value": "1",
+      "label": "Years Running"
+    }
+  ]
+}

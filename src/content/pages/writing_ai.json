@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Writing + AI — Seven and a Half",
+    "description": "Writing in the Age of AI teaches writers at every age and experience level how to remain original, ethical and unmistakably human while using AI intelligently."
+  },
+  "hero": {
+    "label": "Writing in the Age of AI",
+    "heading": "Writing + AI",
+    "subheading": "Writers now have more information and more powerful tools than any other moment in history. But how do we use those tools without surrendering the curiosity, judgment and individual voice that make writing worth reading?",
+    "signatureLine": "The goal is not to teach AI to write for you. It is to teach you how to write better in a world where AI is everywhere."
+  },
+  "description": {
+    "body": [
+      {
+        "id": "d1",
+        "text": "Writing in the Age of AI pairs aspiring and established writers with accomplished journalists, authors, editors and screenwriters. Participants learn how to use tools such as ChatGPT, Claude, Gemini, Perplexity, NotebookLM and AI-assisted editing platforms for research, organization, brainstorming and revision without allowing technology to replace original thinking or authorship."
+      },
+      {
+        "id": "d2",
+        "text": "Each participant is matched with an established journalist, author, editor or screenwriter who understands both traditional craft and responsible AI use."
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "t1",
+      "name": "Young Writers",
+      "description": "Middle- and high-school students learning to develop their voice and think critically before AI shapes it for them."
+    },
+    {
+      "id": "t2",
+      "name": "Journalism & Nonfiction",
+      "description": "Reporters, essayists and narrative writers who need to verify, source and publish with integrity in an AI-saturated media landscape."
+    },
+    {
+      "id": "t3",
+      "name": "Screenwriting Studio",
+      "description": "From the first premise to the final scene, participants work with an experienced screenwriter, filmmaker or story editor to develop an original screenplay for film, television or digital media."
+    },
+    {
+      "id": "t4",
+      "name": "Fiction & Creative Writing",
+      "description": "Novelists, short story writers and poets developing original work with a mentor who helps protect voice, structure and authorship."
+    },
+    {
+      "id": "t5",
+      "name": "Professional Writing",
+      "description": "Adults, executives and working writers who communicate for a living and need to use AI tools without losing authority or credibility."
+    },
+    {
+      "id": "t6",
+      "name": "College Writing",
+      "description": "Skill development and guidance, with strict admissions-essay ethics. AI is a thinking tool here never a ghostwriter."
+    },
+    {
+      "id": "t7",
+      "name": "New Voices",
+      "description": "Selected work published on the site. Writers who complete the program may submit for editorial consideration."
+    },
+    {
+      "id": "t8",
+      "name": "Become a Mentor",
+      "description": "Accomplished journalists, authors, editors and screenwriters who want to work with the next generation of writers on their terms, at their pace."
+    }
+  ],
+  "philosophy": {
+    "label": "The program's philosophy",
+    "heading": "What AI can and cannot do",
+    "points": [
+      {
+        "id": "p1",
+        "text": "AI can suggest an angle. It cannot replace curiosity."
+      },
+      {
+        "id": "p2",
+        "text": "It can organize research. It cannot decide what matters."
+      },
+      {
+        "id": "p3",
+        "text": "It can propose a sentence. It cannot give a writer a lived perspective."
+      }
+    ],
+    "body": "Our mentors help writers understand where AI is useful, where it becomes unreliable, and where the writer must take complete control. Every participant learns to research carefully, verify facts, protect sources, identify fabricated information, preserve an original voice and disclose meaningful AI assistance honestly."
+  },
+  "curriculum": {
+    "label": "What the curriculum teaches",
+    "heading": "Five stages of every track",
+    "stages": [
+      {
+        "id": "s1",
+        "number": "01",
+        "name": "Discover",
+        "description": "Brainstorm subjects, identify angles and develop better questions."
+      },
+      {
+        "id": "s2",
+        "number": "02",
+        "name": "Research",
+        "description": "Find information, organize sources and learn why AI output is not itself a verified source."
+      },
+      {
+        "id": "s3",
+        "number": "03",
+        "name": "Create",
+        "description": "Develop the writer's own argument, reporting, characters, scenes and voice."
+      },
+      {
+        "id": "s4",
+        "number": "04",
+        "name": "Revise",
+        "description": "Use AI for feedback, structural alternatives and proofreading while making every final decision personally."
+      },
+      {
+        "id": "s5",
+        "number": "05",
+        "name": "Disclose",
+        "description": "Explain honestly whether AI helped with brainstorming, research, organization, editing or generated language."
+      }
+    ]
+  },
+  "transparency": {
+    "label": "AI honesty system",
+    "heading": "The AI Transparency Note",
+    "body": "Every piece published through the program carries a small AI Transparency Note. The language changes depending on how the writer used AI. This becomes a recognizable feature of Seven and a Half.",
+    "example": "This piece was conceived, reported and written by the author. AI was used to organize research and generate revision questions. All facts, sources and final language were independently reviewed by the writer and editor."
+  },
+  "rules": {
+    "label": "The key rules",
+    "heading": "Green, Yellow, Red",
+    "intro": "Every participant learns a simple framework for deciding when AI helps and when it harms.",
+    "items": [
+      {
+        "id": "r1",
+        "color": "green",
+        "label": "Green",
+        "description": "Brainstorming, research organization, outlining options, proofreading and generating questions."
+      },
+      {
+        "id": "r2",
+        "color": "yellow",
+        "label": "Yellow",
+        "description": "Rewriting substantial passages, summarizing unfamiliar sources, imitating another writer's style or entering personal information."
+      },
+      {
+        "id": "r3",
+        "color": "red",
+        "label": "Red",
+        "description": "Fabricated quotes or citations, undisclosed AI-written work, submitting AI output as schoolwork, or uploading confidential sources and unpublished scripts without permission."
+      }
+    ],
+    "youngWritersNote": "For younger students, the program emphasizes that you are teaching writing not completing graded assignments or college applications for them."
+  },
+  "cta": {
+    "heading": "Ready to write?",
+    "body": "Apply to the program or join the Writers' Room as a mentor.",
+    "buttonLabel": "Apply to the program",
+    "buttonHref": "/newsletter"
+  }
+}

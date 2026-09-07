@@ -1,0 +1,309 @@
+{
+  "pages/home/episode-3": {
+    "requestedSize": {
+      "width": 400,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "vertical",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1330153724",
+    "searchQuery": "black and white portrait scientist innovator thinker",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1014730686",
+      "https://img1.wsimg.com/isteam/getty/2275965103",
+      "https://img1.wsimg.com/isteam/getty/1337550675",
+      "https://img1.wsimg.com/isteam/getty/2275965216"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-03T21:46:58.277Z",
+    "lastUpdated": "2026-09-03T21:46:58.277Z",
+    "gettyId": "1330153724",
+    "alternativeGettyIds": [
+      "1014730686",
+      "2275965103",
+      "1337550675",
+      "2275965216"
+    ]
+  },
+  "pages/home/episode-1": {
+    "requestedSize": {
+      "width": 400,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "vertical",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/688958086",
+    "searchQuery": "black and white portrait entrepreneur creative thinker",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2275965103",
+      "https://img1.wsimg.com/isteam/getty/876191862",
+      "https://img1.wsimg.com/isteam/getty/2221134889",
+      "https://img1.wsimg.com/isteam/getty/1389849893"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-03T21:47:00.966Z",
+    "lastUpdated": "2026-09-03T21:47:00.966Z",
+    "gettyId": "688958086",
+    "alternativeGettyIds": [
+      "2275965103",
+      "876191862",
+      "2221134889",
+      "1389849893"
+    ]
+  },
+  "pages/home/episode-2": {
+    "requestedSize": {
+      "width": 400,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "vertical",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2273926128",
+    "searchQuery": "black and white portrait artist musician creative",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/688958086",
+      "https://img1.wsimg.com/isteam/getty/108274369",
+      "https://img1.wsimg.com/isteam/getty/2284602540",
+      "https://img1.wsimg.com/isteam/getty/1477186282"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-03T21:47:02.046Z",
+    "lastUpdated": "2026-09-03T21:47:02.046Z",
+    "gettyId": "2273926128",
+    "alternativeGettyIds": [
+      "688958086",
+      "108274369",
+      "2284602540",
+      "1477186282"
+    ]
+  },
+  "pages/home/hero-portrait": {
+    "requestedSize": {
+      "width": 600,
+      "height": 800,
+      "fit": "cover"
+    },
+    "orientations": "vertical",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-hero-portrait-64ddbc01.jpg",
+    "searchQuery": "woman in white lace top indoors",
+    "alternatives": [
+      "/airo-assets/uploads/pages-home-hero-portrait-79bf69e4.jpg",
+      "https://img1.wsimg.com/isteam/getty/2149454031",
+      "https://img1.wsimg.com/isteam/getty/467679766",
+      "https://img1.wsimg.com/isteam/getty/2275965152",
+      "https://img1.wsimg.com/isteam/getty/1280140377",
+      "https://img1.wsimg.com/isteam/getty/1472846397"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-03T21:47:04.788Z",
+    "lastUpdated": "2026-09-04T23:10:29.043Z",
+    "alternativeGettyIds": [
+      "",
+      "2149454031",
+      "467679766",
+      "2275965152",
+      "1280140377",
+      "1472846397"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-hero-portrait-79bf69e4.jpg": "okd6uenwmh_1788550938064_file_5elg6RXz1g.jpeg",
+      "/airo-assets/uploads/pages-home-hero-portrait-64ddbc01.jpg": "okd6uenwmh_1788563419958_file_dW93BSb0AF.jpeg"
+    },
+    "uploadContentHash": "ca47ba2fcef997710a130b3c38ba7863615ce729859f6be29fb5f31d729e047b",
+    "caption": "woman in white lace top indoors"
+  },
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png",
+    "searchQuery": "horizontal",
+    "alternatives": [
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/178df856-8c2d-4a10-8fb3-896c18505136/transparent-61adbe5a-233c-4d8c-9875-f175d73d17bd/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/c0125a4e-93ad-4c30-a308-fe799ca3bf33/transparent-c2a899e6-2caa-4a77-af72-649bd0739580/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/966eb833-7267-4676-9808-679549ca8a00/transparent-a6544556-dfb5-431a-b2b6-7426149fc5d7/logo-logo.png"
+    ],
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-transparent-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png": {
+        "sessionId": "71c806cb-322c-4d85-8f2c-f205fafe5d93",
+        "logoId": "867c352f-1e6c-48f4-929d-2b201d7f656a",
+        "groupId": "bddefbf4-d5f2-41e5-a2f2-178ce803f993"
+      },
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/966eb833-7267-4676-9808-679549ca8a00/transparent-a6544556-dfb5-431a-b2b6-7426149fc5d7/logo-logo.png": {
+        "sessionId": "966eb833-7267-4676-9808-679549ca8a00",
+        "logoId": "a6544556-dfb5-431a-b2b6-7426149fc5d7",
+        "groupId": "bddefbf4-d5f2-41e5-a2f2-178ce803f993"
+      },
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/c0125a4e-93ad-4c30-a308-fe799ca3bf33/transparent-c2a899e6-2caa-4a77-af72-649bd0739580/logo-logo.png": {
+        "sessionId": "c0125a4e-93ad-4c30-a308-fe799ca3bf33",
+        "logoId": "c2a899e6-2caa-4a77-af72-649bd0739580",
+        "groupId": "bddefbf4-d5f2-41e5-a2f2-178ce803f993"
+      },
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png": {
+        "sessionId": "40a8726d-c43d-4abf-ba4e-9ea5fa4c503c",
+        "logoId": "3eed2087-dc64-4f42-9f1b-70caf01ff5b8",
+        "parentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-transparent-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png",
+        "groupId": "6535d861-f784-4fbb-b377-e978d026b397"
+      },
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/178df856-8c2d-4a10-8fb3-896c18505136/transparent-61adbe5a-233c-4d8c-9875-f175d73d17bd/logo-logo.png": {
+        "sessionId": "178df856-8c2d-4a10-8fb3-896c18505136",
+        "logoId": "61adbe5a-233c-4d8c-9875-f175d73d17bd",
+        "groupId": "6535d861-f784-4fbb-b377-e978d026b397"
+      }
+    },
+    "logoGroupId": "6535d861-f784-4fbb-b377-e978d026b397",
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-transparent-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-original-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/966eb833-7267-4676-9808-679549ca8a00/transparent-a6544556-dfb5-431a-b2b6-7426149fc5d7/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/966eb833-7267-4676-9808-679549ca8a00/original-a6544556-dfb5-431a-b2b6-7426149fc5d7/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/c0125a4e-93ad-4c30-a308-fe799ca3bf33/transparent-c2a899e6-2caa-4a77-af72-649bd0739580/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/c0125a4e-93ad-4c30-a308-fe799ca3bf33/original-c2a899e6-2caa-4a77-af72-649bd0739580/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-original-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/178df856-8c2d-4a10-8fb3-896c18505136/transparent-61adbe5a-233c-4d8c-9875-f175d73d17bd/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/178df856-8c2d-4a10-8fb3-896c18505136/original-61adbe5a-233c-4d8c-9875-f175d73d17bd/logo-logo.png"
+    },
+    "mockupUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-transparent-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-transparent-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+    },
+    "landscapeMockupUrlMap": {},
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-transparent-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-mockup-mug-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-mockup-card-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-mockup-tshirt-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/71c806cb-322c-4d85-8f2c-f205fafe5d93/horizontal-mockup-box-867c352f-1e6c-48f4-929d-2b201d7f656a/logo-logo.png"
+        }
+      ],
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-mug-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-card-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-tshirt-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-box-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-mug-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-card-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-tshirt-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-mockup-box-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png"
+      }
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-03T21:47:43.819Z",
+    "lastUpdated": "2026-09-03T22:08:51.364Z",
+    "surfaceMode": "dark",
+    "generatedForSurfaceColor": "#2B5F8E",
+    "lightSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/40a8726d-c43d-4abf-ba4e-9ea5fa4c503c/horizontal-transparent-3eed2087-dc64-4f42-9f1b-70caf01ff5b8/logo-logo.png",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/178df856-8c2d-4a10-8fb3-896c18505136/transparent-61adbe5a-233c-4d8c-9875-f175d73d17bd/logo-logo.png"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/d884d26c-ceb5-4f93-b658-633d2007b851/favicon-transparent-e59d3cca-8dca-441f-a1bb-ddb8740b42ae/logo-logo.png",
+    "searchQuery": "favicon",
+    "alternatives": [],
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/6aec8566-b767-4957-841a-2c88cb8df6a0/favicon-transparent-cf1582fb-e825-42fe-94c6-6302c004b05d/logo-logo.png": {
+        "sessionId": "6aec8566-b767-4957-841a-2c88cb8df6a0",
+        "logoId": "cf1582fb-e825-42fe-94c6-6302c004b05d",
+        "groupId": "bddefbf4-d5f2-41e5-a2f2-178ce803f993"
+      },
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/d884d26c-ceb5-4f93-b658-633d2007b851/favicon-transparent-e59d3cca-8dca-441f-a1bb-ddb8740b42ae/logo-logo.png": {
+        "sessionId": "d884d26c-ceb5-4f93-b658-633d2007b851",
+        "logoId": "e59d3cca-8dca-441f-a1bb-ddb8740b42ae",
+        "groupId": "6535d861-f784-4fbb-b377-e978d026b397",
+        "parentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/6aec8566-b767-4957-841a-2c88cb8df6a0/favicon-transparent-cf1582fb-e825-42fe-94c6-6302c004b05d/logo-logo.png"
+      }
+    },
+    "logoGroupId": "6535d861-f784-4fbb-b377-e978d026b397",
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/6aec8566-b767-4957-841a-2c88cb8df6a0/favicon-transparent-cf1582fb-e825-42fe-94c6-6302c004b05d/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/6aec8566-b767-4957-841a-2c88cb8df6a0/favicon-original-cf1582fb-e825-42fe-94c6-6302c004b05d/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/d884d26c-ceb5-4f93-b658-633d2007b851/favicon-transparent-e59d3cca-8dca-441f-a1bb-ddb8740b42ae/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/d884d26c-ceb5-4f93-b658-633d2007b851/favicon-original-e59d3cca-8dca-441f-a1bb-ddb8740b42ae/logo-logo.png"
+    },
+    "userModified": false,
+    "createdAt": "2026-09-03T21:48:04.237Z",
+    "lastUpdated": "2026-09-03T22:08:51.708Z",
+    "surfaceMode": "light",
+    "generatedForSurfaceColor": "#f7f0e3",
+    "lightSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b216a415-85be-4d82-915d-5574ab4547de/session/d884d26c-ceb5-4f93-b658-633d2007b851/favicon-transparent-e59d3cca-8dca-441f-a1bb-ddb8740b42ae/logo-logo.png"
+  },
+  "uploads/hero-okd6uenwmh-1788567884205-file-za3nckftfd": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-hero-okd6uenwmh-1788567884205-file-za3nckftfd-040e8ece.jpg",
+    "searchQuery": "",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-05T00:24:51.715Z",
+    "lastUpdated": "2026-09-05T00:24:51.715Z",
+    "uploadSources": {
+      "/airo-assets/uploads/uploads-hero-okd6uenwmh-1788567884205-file-za3nckftfd-040e8ece.jpg": "okd6uenwmh_1788567884205_file_zA3NCKFTFD.jpeg"
+    },
+    "uploadContentHash": "a5f6654179050c699eda2ac3662c54c90586ac2fe256ffb3bdd09a107f2b1b75"
+  },
+  "pages/episodes/dante-miller-cover": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-episodes-dante-miller-cover-040e8ece.jpg",
+    "searchQuery": "",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-05T00:25:09.971Z",
+    "lastUpdated": "2026-09-05T00:25:09.971Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-episodes-dante-miller-cover-040e8ece.jpg": "okd6uenwmh_1788567884205_file_zA3NCKFTFD.jpeg"
+    },
+    "uploadContentHash": "a5f6654179050c699eda2ac3662c54c90586ac2fe256ffb3bdd09a107f2b1b75"
+  }
+}

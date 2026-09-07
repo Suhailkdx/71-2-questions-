@@ -21,22 +21,16 @@ export default function Header() {
         <div className="relative flex items-center justify-between">
 
           {/* Logo / Wordmark */}
-          <Link to="/" className="flex shrink-0 items-center xl:mr-8">
+          <Link
+            to="/"
+            aria-label="Seven and a Half Questions home"
+            className="flex h-10 w-28 shrink-0 items-center xl:mr-8"
+          >
             <span
-              role="img"
-              aria-label="Seven and a Half"
-              className="block h-10 w-28 self-center bg-[hsl(var(--navy))]"
-              style={{
-                WebkitMaskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
-                maskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
-                WebkitMaskPosition: 'center',
-                maskPosition: 'center',
-                WebkitMaskRepeat: 'no-repeat',
-                maskRepeat: 'no-repeat',
-                WebkitMaskSize: '100% 100%',
-                maskSize: '100% 100%',
-              }}
-            />
+              className="whitespace-nowrap font-heading text-[1.35rem] font-black leading-none tracking-[-0.06em] text-[hsl(var(--navy))]"
+            >
+              7½ Questions
+            </span>
           </Link>
 
           {/* Desktop nav */}

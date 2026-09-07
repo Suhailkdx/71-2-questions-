@@ -24,22 +24,16 @@ export default function Footer() {
 
           {/* Wordmark + tagline */}
           <div className="md:col-span-1">
-            <Link to="/" className="block mb-4">
+            <Link
+              to="/"
+              aria-label="Seven and a Half Questions home"
+              className="mb-4 inline-flex h-9 items-center"
+            >
               <span
-                role="img"
-                aria-label="Seven and a Half"
-                className="block h-9 w-24 bg-[hsl(var(--navy))]"
-                style={{
-                  WebkitMaskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
-                  maskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
-                  WebkitMaskPosition: 'center',
-                  maskPosition: 'center',
-                  WebkitMaskRepeat: 'no-repeat',
-                  maskRepeat: 'no-repeat',
-                  WebkitMaskSize: '100% 100%',
-                  maskSize: '100% 100%',
-                }}
-              />
+                className="whitespace-nowrap font-heading text-xl font-black leading-none tracking-[-0.06em] text-[hsl(var(--navy))]"
+              >
+                7½ Questions
+              </span>
             </Link>
             <p
               className="font-body text-muted-foreground leading-relaxed"

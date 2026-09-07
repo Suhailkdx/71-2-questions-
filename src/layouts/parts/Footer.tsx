@@ -30,8 +30,8 @@ export default function Footer() {
                 aria-label="Seven and a Half"
                 className="block h-9 w-24 bg-[hsl(var(--navy))]"
                 style={{
-                  WebkitMaskImage: 'url(/airo-assets/images/logo/horizontal/dark)',
-                  maskImage: 'url(/airo-assets/images/logo/horizontal/dark)',
+                  WebkitMaskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
+                  maskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
                   WebkitMaskPosition: 'center',
                   maskPosition: 'center',
                   WebkitMaskRepeat: 'no-repeat',

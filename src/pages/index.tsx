@@ -6,7 +6,7 @@ import { home } from 'virtual:content';
 const siteUrl = 'https://7andahalfquestions.com';
 
 const episodeImages = [
-  '/airo-assets/images/pages/episodes/dante-miller-cover',
+  '/assets/uploads/pages-episodes-dante-miller-cover-040e8ece.jpg',
   '/assets/uploads/conner.jpg',
 ];
 
@@ -113,7 +113,7 @@ export default function HomePage() {
               {/* Right: portrait — full bleed, no overlay */}
               <div className="flex min-w-0 justify-center pb-16 lg:justify-end lg:py-16">
                 <img
-                  src="/airo-assets/images/pages/home/hero-portrait"
+                  src="/assets/uploads/pages-home-hero-portrait-64ddbc01.jpg"
                   alt="Host portrait"
                   className="aspect-square w-full max-w-[17rem] rounded-3xl border border-border object-cover shadow-sm sm:max-w-md lg:max-w-[28rem]"
                   style={{ objectPosition: 'center 10%' }}

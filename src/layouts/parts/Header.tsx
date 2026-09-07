@@ -27,8 +27,8 @@ export default function Header() {
               aria-label="Seven and a Half"
               className="block h-10 w-28 self-center bg-[hsl(var(--navy))]"
               style={{
-                WebkitMaskImage: 'url(/airo-assets/images/logo/horizontal/dark)',
-                maskImage: 'url(/airo-assets/images/logo/horizontal/dark)',
+                WebkitMaskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
+                maskImage: 'url(/assets/uploads/airo-logo-shimmer-horizontal.svg)',
                 WebkitMaskPosition: 'center',
                 maskPosition: 'center',
                 WebkitMaskRepeat: 'no-repeat',

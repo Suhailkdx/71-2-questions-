@@ -50,30 +50,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Stats bar */}
-        <div className="bg-foreground border-b-2 border-foreground">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-2 gap-px bg-background/20 md:grid-cols-4">
-              {about.stats.map((stat) => (
-                <div key={stat.id} className="flex min-h-36 flex-col items-center justify-center bg-foreground px-4 py-8 text-center md:min-h-32 md:px-6">
-                  <p
-                    className="font-heading font-black text-background leading-none mb-1"
-                    style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 900 }}
-                  >
-                    {stat.value}
-                  </p>
-                  <p
-                    className="font-body uppercase tracking-widest text-background/50"
-                    style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}
-                  >
-                    {stat.label}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
         {/* Origin story */}
         <motion.section
           className="bg-background py-16 md:py-24 border-b-2 border-foreground"

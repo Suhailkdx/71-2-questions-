@@ -67,7 +67,7 @@ export default function GivingHalfPage() {
 
         {/* Body */}
         <section className="bg-background py-16 md:py-24">
-          <div className="max-w-3xl mx-auto px-6">
+          <div className="mx-auto max-w-6xl px-6">
 
             {/* Ornamental divider */}
             <div className="flex items-center gap-4 mb-12">
@@ -76,29 +76,57 @@ export default function GivingHalfPage() {
               <span className="flex-1 h-px bg-border" />
             </div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: 'easeOut' as const }}
-              className="space-y-6"
-            >
-              {giving_half.intro.paragraphs.map((p) => (
-                <p
-                  key={p.id}
-                  className="font-body text-foreground leading-relaxed"
-                  style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.35rem)', lineHeight: 1.75 }}
-                >
-                  {p.text}
-                </p>
-              ))}
-
-              <p
-                className="font-heading font-black text-foreground mt-8"
-                style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.35rem)' }}
+            <div className="grid items-center gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: 'easeOut' as const }}
+                className="space-y-6"
               >
-                {giving_half.intro.closing}
-              </p>
-            </motion.div>
+                {giving_half.intro.paragraphs.map((p) => (
+                  <p
+                    key={p.id}
+                    className="font-body text-foreground leading-relaxed"
+                    style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.35rem)', lineHeight: 1.75 }}
+                  >
+                    {p.text}
+                  </p>
+                ))}
+
+                <p
+                  className="font-heading font-black text-foreground mt-8"
+                  style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.35rem)' }}
+                >
+                  {giving_half.intro.closing}
+                </p>
+              </motion.div>
+
+              <motion.div
+                className="relative mx-auto h-[43rem] w-full max-w-xl sm:h-[34rem]"
+                initial={{ opacity: 0, scale: 0.96 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, amount: 0.25 }}
+                transition={{ duration: 0.65, ease: 'easeOut' as const }}
+                aria-label="The Giving Half photo story"
+              >
+                <div className="absolute left-0 top-0 z-10 w-[72%] rotate-[-2deg] overflow-hidden rounded-3xl border-2 border-foreground bg-background p-2 shadow-[8px_8px_0_hsl(var(--border))] sm:w-[48%]">
+                  <img
+                    src="/assets/uploads/cha-1-enhanced.png"
+                    alt="Rescue dog standing in a sunny park"
+                    className="aspect-[4/5] w-full rounded-2xl object-cover object-center"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="absolute bottom-0 right-0 z-20 w-[72%] rotate-[2deg] overflow-hidden rounded-3xl border-2 border-foreground bg-background p-2 shadow-[-8px_8px_0_hsl(var(--border))] sm:w-[48%]">
+                  <img
+                    src="/assets/uploads/cha-2-enhanced.png"
+                    alt="Priscilla sharing a quiet moment with her dog"
+                    className="aspect-[4/5] w-full rounded-2xl object-cover object-center"
+                    loading="lazy"
+                  />
+                </div>
+              </motion.div>
+            </div>
 
             {/* Ornamental divider */}
             <div className="flex items-center gap-4 mt-16">

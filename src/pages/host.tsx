@@ -9,7 +9,6 @@ const siteUrl = 'https://7andahalfquestions.com';
 const tabs = [
   { id: 'bio', label: 'Priscilla' },
   { id: 'half-question', label: 'The Half Question' },
-  { id: 'ai-mentor', label: 'AI Mentor' },
 ] as const;
 
 type TabId = (typeof tabs)[number]['id'];
@@ -81,7 +80,7 @@ export default function HostPage() {
 
               <div className="mx-auto flex w-full max-w-sm flex-col lg:mr-0">
                 <img
-                  src="/assets/uploads/port%201.jpeg"
+                  src="/assets/uploads/port%202.png"
                   alt="Priscilla Beaton"
                   className="aspect-[4/5] w-full rounded-3xl border border-border object-cover object-center shadow-md"
                 />
@@ -103,7 +102,7 @@ export default function HostPage() {
           <div className="max-w-7xl mx-auto px-6">
             <nav
               aria-label="Host page sections"
-              className="flex items-end gap-0"
+              className="flex items-end justify-center gap-0"
             >
               {tabs.map((tab) => {
                 const isActive = activeTab === tab.id;
@@ -153,24 +152,8 @@ export default function HostPage() {
               aria-label="Bio"
             >
               <div className="max-w-7xl mx-auto px-6">
-                <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-[1fr_2fr] md:gap-20">
+                <div className="mx-auto max-w-4xl">
                   {/* Left: decorative ½ watermark */}
-                  <div className="flex w-full items-center justify-center">
-                    <span
-                      className="hidden"
-                      style={{ fontSize: '14rem', fontWeight: 900, color: 'hsl(var(--foreground) / 0.06)', lineHeight: 1 }}
-                      aria-hidden="true"
-                    >
-                      ½
-                    </span>
-                    <img
-                      src="/assets/uploads/port%202.png"
-                      alt="Priscilla Beaton at graduation"
-                      className="aspect-[4/5] w-full max-w-sm rounded-3xl border border-border object-cover object-center shadow-md"
-                      loading="lazy"
-                    />
-                  </div>
-
                   {/* Bio paragraphs */}
                   <div className="flex flex-col gap-6">
                     {host.bio.paragraphs.map((p) => (
@@ -268,7 +251,7 @@ export default function HostPage() {
           )}
 
           {/* AI MENTOR */}
-          {activeTab === 'ai-mentor' && (
+          {false && (
             <motion.section
               key="ai-mentor"
               className="bg-background py-16 md:py-32 border-b-2 border-foreground"

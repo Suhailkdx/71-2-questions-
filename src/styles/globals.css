@@ -262,6 +262,19 @@ main .font-body.uppercase.tracking-widest {
   line-height: 1.4;
 }
 
+@media (max-width: 767px) {
+  main .transparency-note-label {
+    font-size: 1rem !important;
+    line-height: 1.5;
+    letter-spacing: 0.14em !important;
+  }
+
+  main .transparency-note-label > span {
+    display: block;
+    white-space: nowrap;
+  }
+}
+
 .host-card-heading {
   font-family: Georgia, "Times New Roman", serif !important;
 }

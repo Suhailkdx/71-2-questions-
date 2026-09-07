@@ -166,7 +166,7 @@ export default function WritersBlockPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-center gap-6 mb-10">
               <span
-                className="font-body uppercase tracking-widest text-background/50"
+                className="font-body uppercase tracking-widest text-white"
                 style={{ fontSize: '0.65rem', letterSpacing: '0.22em' }}
               >
                 {writers_block.boundary.heading}
@@ -177,7 +177,7 @@ export default function WritersBlockPage() {
             <div className="max-w-2xl">
               <div className="border-l-4 border-accent pl-6 mb-10">
                 <p
-                  className="font-body text-background/80 leading-relaxed"
+                  className="font-body leading-relaxed text-white"
                   style={{ fontSize: '1rem', lineHeight: 1.85 }}
                 >
                   {writers_block.boundary.note}
@@ -185,7 +185,7 @@ export default function WritersBlockPage() {
               </div>
 
               <p
-                className="font-body text-background/70 leading-relaxed"
+                className="font-body leading-relaxed text-white"
                 style={{ fontSize: '0.95rem', lineHeight: 1.8 }}
               >
                 {writers_block.boundary.minors}

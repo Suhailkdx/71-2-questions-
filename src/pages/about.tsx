@@ -152,7 +152,7 @@ export default function AboutPage() {
                 ½
               </div>
 
-              <div className="relative z-10 grid grid-cols-1 items-center gap-8 md:gap-12 lg:grid-cols-[3fr_2fr] lg:gap-16">
+              <div className="relative z-10 mx-auto max-w-3xl">
                 <div>
                 <p
                   className="host-card-label mb-4 font-black uppercase tracking-widest text-[hsl(var(--navy))]"
@@ -189,15 +189,6 @@ export default function AboutPage() {
                     Full Bio
                   </Link>
                 </div>
-                </div>
-
-                <div className="flex items-center justify-center lg:justify-end">
-                  <img
-                    src="/assets/uploads/about%202.jpeg"
-                    alt="Priscilla Beaton"
-                    className="aspect-[4/5] w-full max-w-[15rem] rounded-3xl border border-border object-cover object-center shadow-md md:max-w-sm"
-                    loading="lazy"
-                  />
                 </div>
               </div>
             </div>

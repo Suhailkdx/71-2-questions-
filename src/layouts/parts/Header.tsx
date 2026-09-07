@@ -17,20 +17,20 @@ export default function Header() {
 
   return (
     <header className="bg-background border-b border-border">
-      <div className="mx-auto max-w-[90rem] px-6 py-4 md:px-10">
+      <div className="mx-auto max-w-[90rem] px-6 py-2 md:px-10">
         <div className="relative flex items-center justify-between">
 
           {/* Logo / Wordmark */}
           <Link
             to="/"
             aria-label="Seven and a Half Questions home"
-            className="flex h-10 w-28 shrink-0 items-center xl:mr-8"
+            className="flex h-20 w-36 shrink-0 items-center justify-start"
           >
-            <span
-              className="whitespace-nowrap font-heading text-[1.35rem] font-black leading-none tracking-[-0.06em] text-[hsl(var(--navy))]"
-            >
-              7½ Questions
-            </span>
+            <img
+              src="/assets/uploads/logo.png"
+              alt=""
+              className="h-20 w-auto object-contain object-left"
+            />
           </Link>
 
           {/* Desktop nav */}
@@ -64,7 +64,18 @@ export default function Header() {
               }`}
               style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
             >
-              Pitch a Guest
+              Dispatch
+            </Link>
+            <Link
+              to="/ai-mentor"
+              className={`whitespace-nowrap rounded-full px-4 py-2.5 font-body font-bold transition-colors duration-150 2xl:px-5 ${
+                location.pathname === '/ai-mentor'
+                  ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
+                  : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
+              }`}
+              style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+            >
+              AI Mentor
             </Link>
           </nav>
 
@@ -114,7 +125,19 @@ export default function Header() {
               }`}
               style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
             >
-              Pitch a Guest
+              Dispatch
+            </Link>
+            <Link
+              to="/ai-mentor"
+              onClick={() => setMenuOpen(false)}
+              className={`rounded-full px-5 py-3 font-body font-bold transition-colors ${
+                location.pathname === '/ai-mentor'
+                  ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
+                  : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
+              }`}
+              style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+            >
+              AI Mentor
             </Link>
           </nav>
         )}

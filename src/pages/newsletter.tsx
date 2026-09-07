@@ -75,7 +75,7 @@ function NewsletterForm({ onSuccess }: { onSuccess: () => void }) {
 
       <div className="flex flex-col gap-4">
         <div>
-          <label htmlFor="nl-name" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+          <label htmlFor="nl-name" className="mb-2 block font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
             Your name *
           </label>
           <input
@@ -90,7 +90,7 @@ function NewsletterForm({ onSuccess }: { onSuccess: () => void }) {
         </div>
 
         <div>
-          <label htmlFor="nl-email" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+          <label htmlFor="nl-email" className="mb-2 block font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
             Email address *
           </label>
           <input
@@ -200,9 +200,9 @@ function PitchForm({ onSuccess }: { onSuccess: () => void }) {
       <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" style={{ position: 'absolute', left: '-9999px' }} aria-hidden="true" />
 
       <div className="flex flex-col gap-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 [&>div]:flex [&>div]:flex-col">
           <div>
-            <label htmlFor="pitch-name" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+            <label htmlFor="pitch-name" className="mb-2 block flex-1 font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
               Your name *
             </label>
             <input
@@ -217,7 +217,7 @@ function PitchForm({ onSuccess }: { onSuccess: () => void }) {
             />
           </div>
           <div>
-            <label htmlFor="pitch-email" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+            <label htmlFor="pitch-email" className="mb-2 block flex-1 font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
               Your email *
             </label>
             <input
@@ -233,9 +233,9 @@ function PitchForm({ onSuccess }: { onSuccess: () => void }) {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 [&>div]:flex [&>div]:flex-col">
           <div>
-            <label htmlFor="pitch-guest-name" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+            <label htmlFor="pitch-guest-name" className="mb-2 block flex-1 font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
               Guest's name *
             </label>
             <input
@@ -249,7 +249,7 @@ function PitchForm({ onSuccess }: { onSuccess: () => void }) {
             />
           </div>
           <div>
-            <label htmlFor="pitch-guest-title" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+            <label htmlFor="pitch-guest-title" className="mb-2 block flex-1 font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
               Their title / role
             </label>
             <input
@@ -264,7 +264,7 @@ function PitchForm({ onSuccess }: { onSuccess: () => void }) {
         </div>
 
         <div>
-          <label htmlFor="pitch-why" className="block font-body uppercase tracking-widest text-muted-foreground mb-2" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
+          <label htmlFor="pitch-why" className="mb-2 block font-body uppercase tracking-widest text-muted-foreground" style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}>
             Why them? *
           </label>
           <textarea

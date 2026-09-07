@@ -172,7 +172,7 @@ export default function WritersStudioPage() {
 
                   <div className="mb-6">
                     <p
-                      className={`font-body uppercase tracking-widest mb-2 ${prog.featured ? 'text-primary-foreground/60' : 'text-muted-foreground'}`}
+                      className={`font-body uppercase tracking-widest mb-2 ${prog.featured ? 'text-primary-foreground' : 'text-muted-foreground'}`}
                       style={{ fontSize: '0.75rem', letterSpacing: '0.22em' }}
                     >
                       {prog.duration}
@@ -186,7 +186,7 @@ export default function WritersStudioPage() {
                   </div>
 
                   <p
-                    className={`font-body leading-relaxed mb-8 ${prog.featured ? 'text-primary-foreground/80' : 'text-muted-foreground'}`}
+                    className={`font-body leading-relaxed mb-8 ${prog.featured ? 'text-primary-foreground' : 'text-muted-foreground'}`}
                     style={{ fontSize: '1rem', lineHeight: 1.75 }}
                   >
                     {prog.description}
@@ -199,7 +199,7 @@ export default function WritersStudioPage() {
                           className={`mt-1.5 flex-shrink-0 w-2 h-2 rounded-full ${prog.featured ? 'bg-accent' : 'bg-secondary'}`}
                         />
                         <span
-                          className={`font-body ${prog.featured ? 'text-primary-foreground/80' : 'text-muted-foreground'}`}
+                          className={`font-body ${prog.featured ? 'text-primary-foreground' : 'text-muted-foreground'}`}
                           style={{ fontSize: '1rem', lineHeight: 1.6 }}
                         >
                           {f.text}

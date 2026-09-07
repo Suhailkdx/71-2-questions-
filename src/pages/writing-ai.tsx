@@ -270,12 +270,14 @@ export default function WritingAIPage() {
               </div>
 
               {/* Example note */}
-              <div className="border-2 border-foreground p-8 bg-background">
+              <div className="border-2 border-foreground bg-background p-6 sm:p-8">
                 <span
-                  className="font-body uppercase tracking-widest text-muted-foreground block mb-4"
+                  className="transparency-note-label mb-4 block font-body uppercase tracking-widest text-muted-foreground"
                   style={{ fontSize: '0.8rem', letterSpacing: '0.2em' }}
                 >
-                  Example transparency note
+                  <span>Example</span>{' '}
+                  <span>Transparency</span>{' '}
+                  <span>Note</span>
                 </span>
                 <p
                   className="font-body italic text-foreground leading-relaxed"

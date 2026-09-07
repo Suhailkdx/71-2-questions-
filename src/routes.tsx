@@ -8,6 +8,7 @@ import HostPage from './pages/host';
 import WritersStudioPage from './pages/writers-studio';
 import NewsletterPage from './pages/newsletter';
 import WritingAIPage from './pages/writing-ai';
+import AIMentorPage from './pages/ai-mentor';
 import WritersBlockPage from './pages/writers-block';
 import GivingHalfPage from './pages/giving-half';
 // Eager import so renderToString doesn't hit a Suspense boundary on 404 routes
@@ -50,6 +51,10 @@ export const routes: RouteObject[] = [
   {
     path: '/writing-ai',
     element: <WritingAIPage />,
+  },
+  {
+    path: '/ai-mentor',
+    element: <AIMentorPage />,
   },
   {
     path: '/writers-block',

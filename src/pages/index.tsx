@@ -113,10 +113,10 @@ export default function HomePage() {
               {/* Right: portrait — full bleed, no overlay */}
               <div className="flex min-w-0 justify-center pb-16 lg:justify-end lg:py-16">
                 <img
-                  src="/assets/uploads/pages-home-hero-portrait-64ddbc01.jpg"
+                  src="/assets/uploads/port-1-enhanced.png"
                   alt="Host portrait"
-                  className="aspect-square w-full max-w-[17rem] rounded-3xl border border-border object-cover shadow-sm sm:max-w-md lg:max-w-[28rem]"
-                  style={{ objectPosition: 'center 10%' }}
+                  className="aspect-[4/5] w-full max-w-[19rem] rounded-3xl border border-border object-cover shadow-sm sm:max-w-[26rem] lg:max-w-[31rem]"
+                  style={{ objectPosition: 'center 18%' }}
                   loading="eager"
                   fetchPriority="high"
                 />
@@ -356,45 +356,6 @@ export default function HomePage() {
                 ))}
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* ── THIN RULE ── */}
-        <div className="border-t border-border" />
-
-        {/* ── CTA ── */}
-        <section className="bg-background py-20 md:py-32">
-          <div className="max-w-7xl mx-auto px-6 md:px-12">
-            <motion.div
-              className="text-center max-w-2xl mx-auto"
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, ease: 'easeOut' as const }}
-            >
-              <p
-                className="font-body uppercase tracking-widest text-muted-foreground mb-6"
-                style={{ fontSize: '0.6rem', letterSpacing: '0.22em' }}
-              >
-                The Dispatch
-              </p>
-              <h2
-                className="font-heading font-black text-foreground leading-tight mb-5"
-                style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', lineHeight: 1.1 }}
-              >
-                {home.cta.heading}
-              </h2>
-              <p className="font-body text-muted-foreground mb-10" style={{ fontSize: '1rem', lineHeight: 1.75 }}>
-                {home.cta.subheading}
-              </p>
-              <Link
-                to="/newsletter"
-                className="inline-block font-heading font-bold uppercase tracking-widest text-foreground border-b-2 border-foreground pb-0.5 hover:border-accent hover:text-accent transition-colors duration-200"
-                style={{ fontSize: '0.7rem', letterSpacing: '0.18em' }}
-              >
-                {home.cta.buttonLabel}
-              </Link>
-            </motion.div>
           </div>
         </section>
 

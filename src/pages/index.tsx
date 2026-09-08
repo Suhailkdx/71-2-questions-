@@ -112,14 +112,15 @@ export default function HomePage() {
 
               {/* Right: portrait — full bleed, no overlay */}
               <div className="flex min-w-0 justify-center pb-16 lg:justify-end lg:py-16">
-                <img
-                  src="/assets/uploads/port-1-enhanced.png"
-                  alt="Host portrait"
-                  className="aspect-[4/5] w-full max-w-[19rem] rounded-3xl border border-border object-cover shadow-sm sm:max-w-[26rem] lg:max-w-[31rem]"
-                  style={{ objectPosition: 'center 18%' }}
-                  loading="eager"
-                  fetchPriority="high"
-                />
+                <div className="aspect-[4/5] w-full max-w-[19rem] overflow-hidden rounded-3xl border border-border shadow-sm sm:max-w-[26rem] lg:max-w-[31rem]">
+                  <img
+                    src="/assets/uploads/port 2.png"
+                    alt="Host portrait"
+                    className="h-[130%] w-full -translate-y-[13%] object-cover object-center"
+                    loading="eager"
+                    fetchPriority="high"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -145,6 +146,42 @@ export default function HomePage() {
 
         {/* ── THIN RULE ── */}
         <div className="border-t border-border" />
+
+        {/* ── EDITORIAL INTRODUCTION ── */}
+        <motion.section
+          className="border-b-2 border-foreground bg-background py-16 md:py-24"
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.55, ease: 'easeOut' as const }}
+        >
+          <div className="mx-auto max-w-6xl px-6 md:px-12">
+            <div className="mb-12 flex items-center gap-6">
+              <span className="font-body text-sm font-black uppercase tracking-[0.22em] text-accent">
+                Seven and a Half
+              </span>
+              <span className="h-px flex-1 bg-border" />
+            </div>
+
+            <h2
+              className="max-w-5xl font-heading font-black leading-[0.98] text-foreground"
+              style={{ fontSize: 'clamp(2.75rem, 6vw, 5.75rem)', letterSpacing: '-0.025em' }}
+            >
+              Every story starts with a question.
+              <span className="mt-2 block text-accent">The better ones start with seven and a half.</span>
+            </h2>
+
+            <div className="mt-12 grid grid-cols-1 gap-8 border-t border-border pt-10 md:grid-cols-2 md:gap-16">
+              <p className="font-body leading-relaxed text-foreground/80">
+                Seven and a Half is a writing and mentorship company founded by Columbia Journalism School graduate Priscilla Beaton. We connect aspiring and working writers with accomplished journalists, authors, editors, and screenwriters for thoughtful, one to one guidance.
+              </p>
+              <p className="font-body leading-relaxed text-foreground/80">
+                Alongside our mentorship programs, Seven and a Half produces an original interview series, offers support for the moments when writers get stuck, and explores how to write intelligently and honestly in the age of AI.
+              </p>
+            </div>
+
+          </div>
+        </motion.section>
 
         {/* ── FEATURED EPISODES ── */}
         <section className="bg-background py-20 md:py-32">

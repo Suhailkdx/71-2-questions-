@@ -123,6 +123,7 @@ function NewsletterForm({ onSuccess }: { onSuccess: () => void }) {
         <p className="font-body text-muted-foreground text-center" style={{ fontSize: '0.75rem' }}>
           {newsletter.newsletter.frequency}
         </p>
+
       </div>
     </form>
   );
@@ -385,7 +386,7 @@ export default function NewsletterPage() {
         {/* Two-column: newsletter + pitch */}
         <section className="bg-background py-16 md:py-24 border-b-2 border-foreground">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-1 items-stretch gap-8 md:grid-cols-2">
+            <div className="mx-auto max-w-2xl">
 
               {/* Newsletter signup */}
               <motion.div
@@ -429,7 +430,12 @@ export default function NewsletterPage() {
                 )}
               </motion.div>
 
-              {/* Guest pitch */}
+              <div className="mx-auto mt-12 w-fit bg-foreground px-10 py-4 text-center font-heading text-sm font-bold uppercase tracking-[0.18em] text-background shadow-[6px_6px_0_hsl(var(--border))]">
+                Sign up coming soon
+              </div>
+
+              {false && (
+              /* Guest pitch */
               <motion.div
                 className="rounded-2xl border-2 border-foreground bg-background p-8 shadow-[6px_6px_0_hsl(var(--border))] md:p-12"
                 initial={{ opacity: 0, y: 20 }}
@@ -469,6 +475,7 @@ export default function NewsletterPage() {
                   </motion.div>
                 )}
               </motion.div>
+              )}
             </div>
           </div>
         </section>

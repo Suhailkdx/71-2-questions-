@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { Link } from 'react-router';
 import { motion, AnimatePresence } from 'motion/react';
-import { host } from 'virtual:content';
+import { about, host } from 'virtual:content';
 
 const siteUrl = 'https://7andahalfquestions.com';
 
@@ -13,12 +13,13 @@ const tabs = [
 
 type TabId = (typeof tabs)[number]['id'];
 
-export default function HostPage() {
+export default function HostPage({ embedded = false, children }: { embedded?: boolean; children?: ReactNode }) {
   const [activeTab, setActiveTab] = useState<TabId>('bio');
+  const PageWrapper = embedded ? 'div' : 'main';
 
   return (
     <>
-      <Helmet>
+      {!embedded && <Helmet>
         <title>{host.meta.title}</title>
         <meta name="description" content={host.meta.description} />
         <link rel="canonical" href={`${siteUrl}/host`} />
@@ -41,9 +42,9 @@ export default function HostPage() {
             worksFor: { '@id': `${siteUrl}/#organization` },
           },
         })}</script>
-      </Helmet>
+      </Helmet>}
 
-      <main>
+      <PageWrapper id={embedded ? 'priscilla' : undefined}>
         {/* ── HERO ── */}
         <section className="bg-background border-b-2 border-foreground py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6">
@@ -80,9 +81,10 @@ export default function HostPage() {
 
               <div className="mx-auto flex w-full max-w-sm flex-col lg:mr-0">
                 <img
-                  src="/assets/uploads/port%202.png"
+                  src="/assets/uploads/port-1-enhanced.png"
                   alt="Priscilla Beaton"
-                  className="aspect-[4/5] w-full rounded-3xl border border-border object-cover object-center shadow-md"
+                  className="aspect-[4/5] w-full rounded-3xl border border-border object-cover object-[center_42%] shadow-md"
+                  style={{ filter: 'blur(0.4px)' }}
                 />
                 <div className="mt-6 border-l-4 border-accent pl-5">
                   <p
@@ -98,6 +100,8 @@ export default function HostPage() {
         </section>
 
         {/* ── TABS ── */}
+        {children}
+
         <div className="bg-background border-b-2 border-foreground sticky top-0 z-10">
           <div className="max-w-7xl mx-auto px-6">
             <nav
@@ -196,6 +200,35 @@ export default function HostPage() {
                   <span className="flex-1 h-0.5 bg-foreground" />
                 </div>
 
+                <div className="text-center mb-14">
+                  <p
+                    className="font-heading italic text-foreground"
+                    style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', fontWeight: 700, lineHeight: 1.15 }}
+                  >
+                    "{about.halfQuestion.pullQuote}"
+                  </p>
+                </div>
+
+                <div className="max-w-2xl mx-auto flex flex-col gap-5">
+                  {about.halfQuestion.body.map((p) => (
+                    <p key={p.id} className="font-body text-foreground/80 leading-relaxed text-center" style={{ fontSize: '1rem', lineHeight: 1.75 }}>
+                      {p.text}
+                    </p>
+                  ))}
+                </div>
+
+                <div className="mt-10 flex justify-center">
+                  <div className="border border-border px-6 py-4 max-w-lg text-center">
+                    <p className="font-body uppercase tracking-widest text-primary mb-2" style={{ fontSize: '0.55rem', letterSpacing: '0.22em' }}>
+                      {about.halfQuestion.aiLabel}
+                    </p>
+                    <p className="font-body text-muted-foreground" style={{ fontSize: '0.85rem', lineHeight: 1.65 }}>
+                      {about.halfQuestion.aiNote}
+                    </p>
+                  </div>
+                </div>
+
+                {false && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
                   {/* Pull quote */}
                   <div className="border-l-4 border-foreground pl-8">
@@ -246,6 +279,7 @@ export default function HostPage() {
                     </div>
                   </div>
                 </div>
+                )}
               </div>
             </motion.section>
           )}
@@ -365,7 +399,7 @@ export default function HostPage() {
             </div>
           </div>
         </motion.section>
-      </main>
+      </PageWrapper>
     </>
   );
 }

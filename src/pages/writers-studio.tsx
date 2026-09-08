@@ -68,13 +68,6 @@ export default function WritersStudioPage() {
               <div className="flex min-w-0 w-full max-w-sm flex-col gap-4 lg:justify-self-end">
                 <Link
                   to="/newsletter"
-                  className="flex min-h-14 w-full items-center justify-center bg-primary px-4 py-4 text-center font-heading font-bold uppercase tracking-widest text-primary-foreground transition-colors duration-200 hover:bg-secondary sm:px-8"
-                  style={{ fontSize: 'clamp(0.7rem, 2.8vw, 0.85rem)', letterSpacing: '0.14em' }}
-                >
-                  {writers_studio.apply.writerCtaLabel}
-                </Link>
-                <Link
-                  to="/newsletter"
                   className="flex min-h-14 w-full items-center justify-center border-3 border-primary px-4 py-4 text-center font-heading font-bold uppercase tracking-widest text-primary transition-colors duration-200 hover:bg-primary hover:text-primary-foreground sm:px-8"
                   style={{ fontSize: 'clamp(0.7rem, 2.8vw, 0.85rem)', letterSpacing: '0.14em', borderWidth: '3px' }}
                 >

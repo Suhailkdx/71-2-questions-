@@ -101,7 +101,7 @@ export default function WritingAIPage() {
                 className="font-body uppercase tracking-widest text-muted-foreground"
                 style={{ fontSize: '0.85rem', letterSpacing: '0.22em' }}
               >
-                Eight tracks
+                Six tracks
               </span>
               <span className="flex-1 h-px bg-border" />
             </div>
@@ -110,7 +110,7 @@ export default function WritingAIPage() {
               {writing_ai.tracks.map((track, i) => (
                 <motion.div
                   key={track.id}
-                  className={`bg-muted p-8 ${i === writing_ai.tracks.length - 1 ? 'lg:col-span-2' : ''}`}
+                  className="bg-muted p-8"
                   initial={{ opacity: 0, y: 12 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}

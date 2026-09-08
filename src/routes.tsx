@@ -1,10 +1,9 @@
-import { RouteObject } from 'react-router';
+import { Navigate, RouteObject } from 'react-router';
 import { lazy } from 'react';
 import HomePage from './pages/index';
 import EpisodesPage from './pages/episodes';
 import GuestsPage from './pages/guests';
 import AboutPage from './pages/about';
-import HostPage from './pages/host';
 import WritersStudioPage from './pages/writers-studio';
 import NewsletterPage from './pages/newsletter';
 import WritingAIPage from './pages/writing-ai';
@@ -38,7 +37,7 @@ export const routes: RouteObject[] = [
   },
   {
     path: '/host',
-    element: <HostPage />,
+    element: <Navigate to="/about#priscilla" replace />,
   },
   {
     path: '/writers-studio',

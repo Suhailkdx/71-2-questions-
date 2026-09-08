@@ -2,6 +2,7 @@ import { Helmet } from '@dr.pogodin/react-helmet';
 import { Link } from 'react-router';
 import { motion } from 'motion/react';
 import { about } from 'virtual:content';
+import HostPage from './host';
 
 const siteUrl = 'https://7andahalfquestions.com';
 
@@ -28,6 +29,7 @@ export default function AboutPage() {
         })}</script>
       </Helmet>
 
+      <HostPage embedded>
       <main>
         {/* Hero */}
         <section className="bg-background border-b-2 border-foreground py-16 md:py-24">
@@ -79,7 +81,7 @@ export default function AboutPage() {
           </div>
         </motion.section>
 
-        {/* The half question */}
+        {false && (
         <motion.section
           className="bg-muted py-16 md:py-24 border-b-2 border-foreground"
           initial={{ opacity: 0 }}
@@ -132,8 +134,9 @@ export default function AboutPage() {
             </div>
           </div>
         </motion.section>
+        )}
 
-        {/* Host */}
+        {false && (
         <motion.section
           className="bg-background py-10 md:py-24"
           initial={{ opacity: 0, y: 20 }}
@@ -182,7 +185,7 @@ export default function AboutPage() {
                     Browse Episodes
                   </Link>
                   <Link
-                    to="/host"
+                    to="#priscilla"
                     className="inline-flex w-full items-center justify-center border-2 border-accent px-5 py-3 text-center font-heading font-bold uppercase tracking-widest text-accent transition-colors duration-200 hover:bg-accent hover:text-background md:w-auto md:px-8"
                     style={{ fontSize: '0.7rem', letterSpacing: '0.15em' }}
                   >
@@ -194,7 +197,9 @@ export default function AboutPage() {
             </div>
           </div>
         </motion.section>
+        )}
       </main>
+      </HostPage>
     </>
   );
 }

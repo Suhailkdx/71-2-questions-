@@ -324,6 +324,17 @@ main :is(button, a[class*="border-"], a[class*="bg-"]):active {
   box-shadow: 0 2px 0 hsl(var(--navy) / 0.1);
 }
 
+/* Keep all editorial body copy comfortably readable across the site. */
+main p.font-body:not(.uppercase),
+main li {
+  font-size: clamp(1rem, 1.1vw, 1.125rem) !important;
+}
+
+main p,
+main li {
+  font-weight: 900 !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   main :is(h1, h2, h3, p),
   main :is(button, a[class*="border-"], a[class*="bg-"]) {

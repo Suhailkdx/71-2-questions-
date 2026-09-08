@@ -6,8 +6,7 @@ const navLinks = [
   { label: "Writers' Studio", href: '/writers-studio' },
   { label: 'Writing + AI', href: '/writing-ai' },
   { label: "Writer's Block", href: '/writers-block' },
-  { label: 'About', href: '/about' },
-  { label: 'Priscilla', href: '/host' },
+  { label: 'Priscilla', href: '/about' },
   { label: 'The Giving Half', href: '/giving-half' },
 ];
 
@@ -75,7 +74,7 @@ export default function Header() {
               }`}
               style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
             >
-              AI Mentor
+              Felix AI
             </Link>
           </nav>
 
@@ -137,7 +136,7 @@ export default function Header() {
               }`}
               style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
             >
-              AI Mentor
+              Felix AI
             </Link>
           </nav>
         )}

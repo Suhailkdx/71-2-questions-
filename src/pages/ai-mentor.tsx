@@ -8,7 +8,7 @@ export default function AIMentorPage() {
   return (
     <>
       <Helmet>
-        <title>AI Mentor — Seven and a Half</title>
+        <title>Felix AI — Seven and a Half</title>
         <meta
           name="description"
           content="An AI mentor designed to help writers develop their craft, find their voice, and use AI as a thoughtful editorial tool."
@@ -24,13 +24,14 @@ export default function AIMentorPage() {
           transition={{ duration: 0.5, ease: 'easeOut' as const }}
         >
           <div className="mx-auto max-w-7xl px-6 md:px-12">
+            <div className="grid items-center gap-16 lg:grid-cols-[minmax(0,3fr)_minmax(18rem,2fr)]">
             <div className="max-w-3xl">
               <div className="mb-10 flex items-center gap-6">
                 <span
                   className="font-body font-bold uppercase tracking-widest text-accent"
                   style={{ fontSize: '0.85rem', letterSpacing: '0.22em' }}
                 >
-                  AI Mentor
+                  Felix AI
                 </span>
                 <span className="h-px flex-1 bg-border" />
               </div>
@@ -61,6 +62,17 @@ export default function AIMentorPage() {
               >
                 Join the Dispatch
               </Link>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <div className="inline-flex items-center gap-5 rounded-full bg-foreground px-8 py-5 text-background shadow-[8px_8px_0_hsl(var(--navy)/0.14)] sm:px-10">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-background text-3xl" aria-hidden="true">
+                  🤖
+                </span>
+                <span className="font-heading text-lg font-black uppercase tracking-[0.16em] sm:text-xl">
+                  Coming Soon
+                </span>
+              </div>
+            </div>
             </div>
           </div>
         </motion.section>

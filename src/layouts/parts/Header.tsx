@@ -64,7 +64,7 @@ export default function Header() {
               }`}
               style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
             >
-              Dispatch
+              Stay Connected
             </Link>
             <Link
               to="/ai-mentor"
@@ -125,7 +125,7 @@ export default function Header() {
               }`}
               style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
             >
-              Dispatch
+              Stay Connected
             </Link>
             <Link
               to="/ai-mentor"

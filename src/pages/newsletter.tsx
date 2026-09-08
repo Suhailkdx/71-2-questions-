@@ -120,10 +120,6 @@ function NewsletterForm({ onSuccess }: { onSuccess: () => void }) {
           {status === 'sending' ? 'Subscribing…' : newsletter.newsletter.buttonLabel}
         </button>
 
-        <p className="font-body text-muted-foreground text-center" style={{ fontSize: '0.75rem' }}>
-          {newsletter.newsletter.frequency}
-        </p>
-
       </div>
     </form>
   );
@@ -356,7 +352,7 @@ export default function NewsletterPage() {
           <div className="max-w-7xl mx-auto px-6">
 
             {/* Vintage masthead bar */}
-            <div className="mb-10 grid grid-cols-2 items-center gap-4 border-b border-border pb-4 md:flex md:justify-between md:gap-6">
+            <div className="hidden">
               <span className="whitespace-nowrap font-body text-[0.62rem] font-bold uppercase tracking-[0.1em] text-muted-foreground md:text-[0.7rem] md:tracking-[0.18em]">
                 Vol. I &nbsp;·&nbsp; No. 1
               </span>
@@ -411,7 +407,6 @@ export default function NewsletterPage() {
                   >
                 {/* Decorative rule */}
                 <div className="flex items-center gap-4 mb-8">
-                  <span className="w-8 h-0.5 bg-secondary" />
                   <span className="font-body uppercase tracking-widest text-secondary" style={{ fontSize: '0.6rem', letterSpacing: '0.2em' }}>
                     For listeners
                   </span>

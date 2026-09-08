@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 
 const footerLinks = [
   { label: 'Interviews', href: '/episodes' },
-  { label: "Writers' Studio", href: '/writers-studio' },
+  { label: "The Writer's Studio", href: '/writers-studio' },
   { label: 'About', href: '/host' },
   { label: 'Dispatch', href: '/newsletter' },
 ];
@@ -28,12 +28,6 @@ export default function Footer() {
                 className="h-16 w-auto object-contain object-left"
               />
             </Link>
-            <p
-              className="font-body text-muted-foreground leading-relaxed"
-              style={{ fontSize: '0.8rem', lineHeight: 1.75 }}
-            >
-              The interview series that asks seven questions, and one you didn't see coming.
-            </p>
           </div>
 
           {/* Navigate */}

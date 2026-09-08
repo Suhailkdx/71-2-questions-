@@ -17,7 +17,7 @@ export default function HomePage() {
         <title>Seven and a Half — The Interview Series</title>
         <meta
           name="description"
-          content="An interview series where human depth meets machine curiosity. Seven questions by Priscilla Beaton. One half question by AI. One conversation you couldn't have planned."
+          content="An interview series where human depth meets machine curiosity. Seven questions by Priscilla. One half question by AI. One conversation you couldn't have planned."
         />
         <link rel="canonical" href={siteUrl} />
         <meta property="og:title" content="Seven and a Half — The Interview Series" />
@@ -152,7 +152,7 @@ export default function HomePage() {
 
             <div className="mt-12 grid grid-cols-1 gap-8 border-t border-border pt-10 md:grid-cols-2 md:gap-16">
               <p className="font-body leading-relaxed text-foreground/80">
-                Seven and a Half is a media company founded by Columbia Journalism School graduate Priscilla Beaton. Through its original interview series, it shares thoughtful conversations with compelling voices across journalism, culture, business, sports, and beyond.
+                Seven and a Half is a media company founded by Columbia Journalism School graduate Priscilla. Through its original interview series, it shares thoughtful conversations with compelling voices across journalism, culture, business, sports, and beyond.
               </p>
               <p className="font-body leading-relaxed text-foreground/80">
                 Alongside its editorial work, Seven and a Half offers mentorship programs connecting aspiring and working writers with accomplished journalists, authors, editors, and screenwriters for thoughtful, one to one guidance. It also provides support for the moments when writers get stuck and explores how to write intelligently and honestly in the age of AI.
@@ -260,7 +260,7 @@ export default function HomePage() {
                   style={{ fontSize: 'clamp(2.8rem, 6vw, 5.5rem)', lineHeight: 0.92, letterSpacing: '-0.02em' }}
                 >
                   <span className="block">The one</span>
-                  <span className="block text-foreground/25">nobody</span>
+                  <span className="block text-foreground/25">only a robot</span>
                   <span className="block">could ask.</span>
                 </h2>
               </div>
@@ -271,13 +271,13 @@ export default function HomePage() {
                   className="font-body text-foreground/75 leading-relaxed"
                   style={{ fontSize: '1.05rem', lineHeight: 1.85 }}
                 >
-                  Seven questions are carefully crafted by Priscilla Beaton, shaped by her curiosity about the person sitting across from her.
+                  Seven questions are carefully crafted by Priscilla, shaped by her curiosity about the person sitting across from her.
                 </p>
                 <p
                   className="font-body text-muted-foreground leading-relaxed"
                   style={{ fontSize: '0.95rem', lineHeight: 1.85 }}
                 >
-                  The half question is different: it comes from AI. Unexpected, unpredictable, and entirely out of Priscilla's hands a question neither interviewer nor interviewee knows in advance.
+                  The half question is different. it comes from AI. Unexpected, unpredictable, and entirely out of Priscilla's hands a question neither interviewer nor interviewee knows in advance.
                 </p>
                 <p
                   className="font-heading font-bold italic text-foreground/70"
@@ -300,7 +300,7 @@ export default function HomePage() {
         {/* ── THIN RULE ── */}
         <div className="border-t border-border" />
 
-        {/* ── WRITERS' STUDIO PROMO ── */}
+        {/* ── The Writer's Studio PROMO ── */}
         <section className="bg-card py-20 md:py-32">
           <div className="max-w-7xl mx-auto px-6 md:px-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center">
@@ -311,7 +311,7 @@ export default function HomePage() {
                   className="font-body uppercase tracking-widest text-accent mb-6"
                   style={{ fontSize: '0.6rem', letterSpacing: '0.22em' }}
                 >
-                  Writers' Studio
+                  The Writer's Studio
                 </p>
                 <h2
                   className="font-heading font-black text-foreground leading-tight mb-6"

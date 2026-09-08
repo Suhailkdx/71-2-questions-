@@ -7,7 +7,6 @@
   "newsletter": {
     "heading": "The Listener Dispatch",
     "description": "No algorithms. No noise. Just a short note when something new drops — and sometimes a little extra from behind the scenes.",
-    "frequency": "Roughly twice a month. Unsubscribe any time.",
     "placeholder": "your@email.com",
     "buttonLabel": "Subscribe"
   },
@@ -24,7 +23,7 @@
     }
   },
   "contact": {
-    "label": "General Enquiries",
+    "label": "General Inquiries",
     "heading": "Everything else",
     "description": "Press, partnerships, licensing, or just a note — use this form.",
     "email": "hello@7andahalfquestions.com"

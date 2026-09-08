@@ -37,7 +37,7 @@ export default function HostPage({ embedded = false, children }: { embedded?: bo
           isPartOf: { '@id': `${siteUrl}/#website` },
           about: {
             '@type': 'Person',
-            name: 'Priscilla Beaton',
+            name: 'Priscilla',
             jobTitle: 'Creator & Host',
             worksFor: { '@id': `${siteUrl}/#organization` },
           },
@@ -82,7 +82,7 @@ export default function HostPage({ embedded = false, children }: { embedded?: bo
               <div className="mx-auto flex w-full max-w-sm flex-col lg:mr-0">
                 <img
                   src="/assets/uploads/port-1-enhanced.png"
-                  alt="Priscilla Beaton"
+                  alt="Priscilla"
                   className="aspect-[4/5] w-full rounded-3xl border border-border object-cover object-[center_42%] shadow-md"
                   style={{ filter: 'blur(0.4px)' }}
                 />
@@ -242,7 +242,7 @@ export default function HostPage({ embedded = false, children }: { embedded?: bo
                       className="font-body uppercase tracking-widest text-muted-foreground mt-6"
                       style={{ fontSize: '0.6rem', letterSpacing: '0.18em' }}
                     >
-                      — Priscilla Beaton
+                      — Priscilla
                     </p>
                   </div>
 
@@ -351,6 +351,7 @@ export default function HostPage({ embedded = false, children }: { embedded?: bo
         </AnimatePresence>
 
         {/* ── CONNECT ── */}
+        {false && (
         <motion.section
           className="bg-background py-16 md:py-24"
           initial={{ opacity: 0, y: 20 }}
@@ -399,6 +400,7 @@ export default function HostPage({ embedded = false, children }: { embedded?: bo
             </div>
           </div>
         </motion.section>
+        )}
       </PageWrapper>
     </>
   );

@@ -2,14 +2,14 @@
   "hero": {
     "label": "About the Show",
     "heading": "An interview series where human depth meets machine curiosity.",
-    "subheading": "Seven questions by Priscilla Beaton. One half question by AI. One conversation you couldn't have planned."
+    "subheading": "Seven questions by Priscilla. One half question by AI. One conversation you couldn't have planned."
   },
   "origin": {
     "heading": "How it works",
     "body": [
       {
         "id": "p1",
-        "text": "Seven questions are carefully crafted by Priscilla Beaton, shaped by her curiosity about the person sitting across from her. They explore the stories, ideas, ambitions, contradictions, and experiences that make each person who they are."
+        "text": "Seven questions are carefully crafted by Priscilla, shaped by her curiosity about the person sitting across from her. They explore the stories, ideas, ambitions, contradictions, and experiences that make each person who they are."
       },
       {
         "id": "p2",
@@ -43,12 +43,12 @@
   },
   "host": {
     "label": "Your Host",
-    "name": "Priscilla Beaton",
+    "name": "Priscilla",
     "title": "Creator & Host",
     "bio": [
       {
         "id": "p1",
-        "text": "Priscilla Beaton created Seven and a Half as a space for conversations that move between the intentional and the unexpected."
+        "text": "Priscilla created Seven and a Half as a space for conversations that move between the intentional and the unexpected."
       },
       {
         "id": "p2",

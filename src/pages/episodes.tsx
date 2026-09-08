@@ -9,7 +9,7 @@ export default function EpisodesPage() {
     <>
       <Helmet>
         <title>Episodes — Seven and a Half</title>
-        <meta name="description" content="Browse every episode of 7 and a Half Questions — seven questions by Priscilla Beaton, one half question by AI." />
+        <meta name="description" content="Browse every episode of 7 and a Half Questions — seven questions by Priscilla, one half question by AI." />
         <link rel="canonical" href={`${siteUrl}/episodes`} />
         <meta property="og:title" content="Episodes — Seven and a Half" />
         <meta property="og:description" content="Browse every episode of 7 and a Half Questions." />

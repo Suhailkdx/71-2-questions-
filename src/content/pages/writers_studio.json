@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "Writers' Studio — Seven and a Half",
+    "title": "The Writer's Studio — Seven and a Half",
     "description": "Work one-on-one with an accomplished journalist or editor. Learn to use AI as an editorial tool without letting it become your voice. Develop an original, publication-ready piece from idea to final edit."
   },
   "hero": {
-    "label": "Writers' Studio",
+    "label": "The Writer's Studio",
     "heading": "Find your voice in the age of AI",
-    "subheading": "Work one-on-one with an accomplished journalist or editor. Use AI as a tool not a ghostwriter. Develop an original piece from idea to published byline."
+    "subheading": "Work one-on-one with an accomplished writing mentor. Learn to use AI as a tool, not a ghostwriter. From a spark of an idea to a published byline, develop an original piece that is distinctly your own."
   },
   "pillars": [
     {
       "id": "p1",
-      "heading": "Write with a real writer",
+      "heading": "Write with a writer",
       "body": "Work one-on-one or in a small group with an experienced journalist, editor, or published author. Every participant is matched with an Editorial Mentor whose background fits their project."
     },
     {
@@ -128,7 +128,7 @@
   "aiNote": {
     "label": "Our approach to AI",
     "heading": "AI is a tool. You are the writer.",
-    "body": "The Writers' Studio does not teach AI writing. It teaches writing in a world where AI exists. Participants learn to use AI for brainstorming, research organisation, interview preparation, and revision and to recognise exactly where human judgment, voice, and originality need to take over. Every finished piece is the author's own work."
+    "body": "The The Writer's Studio does not teach AI writing. It teaches writing in a world where AI exists. Participants learn to use AI for brainstorming, research organisation, interview preparation, and revision and to recognise exactly where human judgment, voice, and originality need to take over. Every finished piece is the author's own work."
   },
   "apply": {
     "heading": "Ready to start?",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Priscilla Beaton | Host of Seven and a Half",
-    "description": "Priscilla Beaton is the creator and host of Seven and a Half, an interview series where seven questions meet one half question from AI."
+    "title": "Priscilla | Host of Seven and a Half",
+    "description": "Priscilla  is the creator and host of Seven and a Half, an interview series where seven questions meet one half question from AI."
   },
   "hero": {
     "label": "Your Host",
@@ -13,35 +13,31 @@
     "paragraphs": [
       {
         "id": "p1",
-        "text": "A lifelong New Yorker with dual U.S. and German citizenship, Priscilla Beaton has always been drawn to compelling people, original ideas, and the stories behind what people create."
+        "text": "A lifelong New Yorker with dual U.S. and German citizenship, Priscilla has always been drawn to compelling people, original ideas, and the stories behind what people create."
       },
       {
         "id": "p2",
-        "text": "Her distinctly New York education began in the Twos Program at the Barnard College Center for Toddler Development, where she learned an early lesson that stayed with her: when something matters, hold on tighter if you do not want to lose it. As the youngest of four children and the only girl among three brothers, she learned early to speak up, stand her ground, and think independently."
+        "text": "Her distinctly New York education began in the Twos Program at the Barnard College Center for Toddler Development, where she learned an early lesson that stayed with her: when something matters, hold on tighter if you do not want to lose it. As the youngest of four children and the only girl among three brothers, she also learned early to speak up, stand her ground, and think independently."
       },
       {
         "id": "p3",
-        "text": "Priscilla went on to attend the Episcopal School in the City of New York, where an imaginative approach to storytelling filled with literature, music, rhythm, humor, and stories created by the children themselves helped awaken her earliest love of narrative. That foundation continued through eleven formative years at the Spence School, where a rigorous emphasis on writing sharpened her skills and deepened her interest in the stories people have to tell. She later attended the Professional Children's School, which enabled her to move to Los Angeles and intern for MGM Unscripted. The schools' individualized approach and faculty members who encouraged students to follow their passions from a young age showed her how the right support can help young people pursue ambitious goals while continuing to grow academically and creatively. This experience helped shape the mentoring mission of Seven and a Half and its belief that every person has a story worth telling."
+        "text": "Priscilla went on to attend the Episcopal School in the City of New York, where an imaginative approach to storytelling, filled with literature, music, rhythm, humor, and stories created by the children themselves, awakened her earliest love of narrative. That foundation continued through eleven formative years at The Spence School, where a rigorous emphasis on writing sharpened her skills and deepened her interest in the stories people have to tell. Writing became an integral part of her life because it gave her a way to understand people, make sense of experience, and turn curiosity into connection."
       },
       {
         "id": "p4",
-        "text": "She earned her undergraduate degree from Barnard College, Columbia University, and later completed her master's degree at Columbia University's Graduate School of Journalism. Her professional experience spans writing, script development, television production, and creative strategy. She also helped found and served as creative director of Snack Bowery, a pop up snack shop and art gallery that brought together emerging artists, creativity, and community."
+        "text": "She later attended the Professional Children’s School, whose individualized approach enabled her to move to Los Angeles and intern in the unscripted department at Metro Goldwyn Mayer Studios. The school’s faculty encouraged students to pursue their passions from a young age, showing her how thoughtful guidance can help young people pursue ambitious goals while continuing to grow academically and creatively. This experience helped shape the mentoring mission of Seven and a Half and its belief that every person has a story worth telling."
       },
       {
         "id": "p5",
-        "text": "A lifelong advocate for animals, Priscilla is particularly devoted to Felix, her family's rescue dog and the inspiration for a short story she is writing about his unlikely friendship and nighttime playdates with the coyotes of Central Park. Giving back to animal charities is an important part of her vision for Seven and a Half and reflects her belief that storytelling can create connection, inspire compassion, and reach far beyond the page."
+        "text": "Priscilla earned her undergraduate degree from Barnard College, Columbia University, and later completed her master’s degree at Columbia University’s Graduate School of Journalism. Her professional experience spans writing, script development, television production, and creative strategy."
       },
       {
         "id": "p6",
-        "text": "Together, these experiences inspired Seven and a Half: an editorial platform and mentoring community created to spark curiosity, encourage authentic conversation, and help people of all ages develop their talents and thrive."
+        "text": "A lifelong advocate for animals, Priscilla is particularly devoted to Felix, her family’s rescue dog and the inspiration for a short story she is writing about his unlikely friendship and nighttime playdates with the coyotes of Central Park. Supporting animal charities is an important part of her vision for Seven and a Half and reflects her belief that storytelling can create connection, inspire compassion, and reach far beyond the page."
       },
       {
         "id": "p7",
-        "text": "At the heart of its mentoring community is a simple idea: one person and one conversation can change the course of a life. It might happen over dinner, in a coffee shop, or while standing beside someone in line. The online world extends that possibility by connecting people with mentors they might never otherwise meet, people whose experience can offer a new perspective, a thoughtful answer, or the piece of advice that changes what comes next."
-      },
-      {
-        "id": "p8",
-        "text": "Built on Priscilla's belief that the best conversations begin where the predictable questions end, Seven and a Half invites fascinating people to share the stories that rarely surface in a traditional interview because sometimes half a question can reveal more than a whole one."
+        "text": "Together, these experiences inspired Seven and a Half, a media company and mentoring community created to spark curiosity, encourage authentic conversation, and help people of all ages develop their talents and thrive."
       }
     ]
   },
@@ -53,9 +49,9 @@
   },
   "connect": {
     "label": "Get in touch",
-    "heading": "Pitch a guest or just say hello",
+    "heading": "Stay Connected",
     "body": "The best conversations come from unexpected suggestions. If you know someone who should answer the half question, Priscilla wants to hear about it.",
-    "ctaLabel": "Send a pitch",
+    "ctaLabel": "Subscribe",
     "ctaHref": "/newsletter"
   }
 }

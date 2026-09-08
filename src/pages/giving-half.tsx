@@ -102,22 +102,14 @@ export default function GivingHalfPage() {
               </motion.div>
 
               <motion.div
-                className="relative mx-auto h-[43rem] w-full max-w-xl sm:h-[34rem]"
+                className="mx-auto w-full max-w-sm"
                 initial={{ opacity: 0, scale: 0.96 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, amount: 0.25 }}
                 transition={{ duration: 0.65, ease: 'easeOut' as const }}
                 aria-label="The Giving Half photo story"
               >
-                <div className="absolute left-0 top-0 z-10 w-[72%] rotate-[-2deg] overflow-hidden rounded-3xl border-2 border-foreground bg-background p-2 shadow-[8px_8px_0_hsl(var(--border))] sm:w-[48%]">
-                  <img
-                    src="/assets/uploads/cha-1-enhanced.png"
-                    alt="Rescue dog standing in a sunny park"
-                    className="aspect-[4/5] w-full rounded-2xl object-cover object-center"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="absolute bottom-0 right-0 z-20 w-[72%] rotate-[2deg] overflow-hidden rounded-3xl border-2 border-foreground bg-background p-2 shadow-[-8px_8px_0_hsl(var(--border))] sm:w-[48%]">
+                <div className="overflow-hidden rounded-3xl border-2 border-foreground bg-background p-2 shadow-[8px_8px_0_hsl(var(--border))]">
                   <img
                     src="/assets/uploads/cha-2-enhanced.png"
                     alt="Priscilla sharing a quiet moment with her dog"

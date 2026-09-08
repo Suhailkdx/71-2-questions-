@@ -21,7 +21,7 @@ export default function WritersStudioPage() {
           '@context': 'https://schema.org',
           '@type': 'EducationalOrganization',
           '@id': `${siteUrl}/writers-studio#org`,
-          name: "Writers' Studio",
+          name: "The Writer's Studio",
           url: `${siteUrl}/writers-studio`,
           description: writers_studio.meta.description,
           isPartOf: { '@id': `${siteUrl}/#organization` },

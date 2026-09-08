@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router';
 
 const navLinks = [
   { label: 'Interviews', href: '/episodes' },
-  { label: "Writers' Studio", href: '/writers-studio' },
+  { label: "The Writer's Studio", href: '/writers-studio' },
   { label: 'Writing + AI', href: '/writing-ai' },
   { label: "Writer's Block", href: '/writers-block' },
   { label: 'Priscilla', href: '/about' },

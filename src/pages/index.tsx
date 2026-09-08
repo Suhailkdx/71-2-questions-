@@ -69,30 +69,9 @@ export default function HomePage() {
                   >
                     Half
                   </span>
-                  <span
-                    className="block text-accent"
-                    style={{ fontSize: 'clamp(2.2rem, 5vw, 4.5rem)', letterSpacing: '0.03em', marginTop: '0.1em' }}
-                  >
-                    Questions
-                  </span>
                 </h1>
 
-                {/* Pull quote */}
-                <p
-                  className="font-heading italic text-foreground/60 leading-snug mb-8"
-                  style={{ fontSize: 'clamp(1rem, 1.8vw, 1.3rem)', fontWeight: 700, maxWidth: '36ch' }}
-                >
-                  {home.hero.pullQuote}
-                </p>
-
-                <p
-                  className="font-body text-muted-foreground leading-relaxed mb-5"
-                  style={{ fontSize: '0.95rem', maxWidth: '38ch', lineHeight: 1.8 }}
-                >
-                  {home.hero.description}
-                </p>
-
-                <div className="flex items-center gap-8">
+                <div className="hidden">
                   <a
                     href={home.hero.ctaHref}
                     className="font-heading font-bold uppercase tracking-widest text-foreground border-b-2 border-foreground pb-0.5 hover:border-accent hover:text-accent transition-colors duration-200"
@@ -134,13 +113,13 @@ export default function HomePage() {
         </div>
 
         {/* ── PLATFORM BAR ── */}
-        <section className="flex min-h-[5rem] items-center justify-center bg-foreground px-6 py-6 text-center">
+        <section className="flex min-h-[14rem] items-center justify-center bg-foreground px-6 py-12 text-center md:min-h-[18rem] md:py-16">
           <p
             className="font-heading font-black uppercase text-background"
-            style={{ fontSize: 'clamp(1.25rem, 2.5vw, 2rem)', letterSpacing: '0.2em' }}
+            style={{ fontSize: 'clamp(2.5rem, 5vw, 4.75rem)', letterSpacing: '0.2em', lineHeight: 1.05 }}
           >
             <span className="block">Launching</span>
-            <span className="mt-1 block text-[0.72em]">December 2026</span>
+            <span className="mt-4 block text-[0.65em]">December 2026</span>
           </p>
         </section>
 
@@ -173,10 +152,10 @@ export default function HomePage() {
 
             <div className="mt-12 grid grid-cols-1 gap-8 border-t border-border pt-10 md:grid-cols-2 md:gap-16">
               <p className="font-body leading-relaxed text-foreground/80">
-                Seven and a Half is a writing and mentorship company founded by Columbia Journalism School graduate Priscilla Beaton. We connect aspiring and working writers with accomplished journalists, authors, editors, and screenwriters for thoughtful, one to one guidance.
+                Seven and a Half is a media company founded by Columbia Journalism School graduate Priscilla Beaton. Through its original interview series, it shares thoughtful conversations with compelling voices across journalism, culture, business, sports, and beyond.
               </p>
               <p className="font-body leading-relaxed text-foreground/80">
-                Alongside our mentorship programs, Seven and a Half produces an original interview series, offers support for the moments when writers get stuck, and explores how to write intelligently and honestly in the age of AI.
+                Alongside its editorial work, Seven and a Half offers mentorship programs connecting aspiring and working writers with accomplished journalists, authors, editors, and screenwriters for thoughtful, one to one guidance. It also provides support for the moments when writers get stuck and explores how to write intelligently and honestly in the age of AI.
               </p>
             </div>
 

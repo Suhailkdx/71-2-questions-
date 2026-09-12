@@ -3,10 +3,6 @@ import { Link, useLocation } from 'react-router';
 
 const navLinks = [
   { label: 'Interviews', href: '/episodes' },
-  { label: "The Writer's Studio", href: '/writers-studio' },
-  { label: 'Writing + AI', href: '/writing-ai' },
-  { label: "Writer's Block", href: '/writers-block' },
-  { label: 'Priscilla', href: '/about' },
   { label: 'The Giving Half', href: '/giving-half' },
 ];
 
@@ -15,7 +11,7 @@ export default function Header() {
   const location = useLocation();
 
   return (
-    <header className="bg-background border-b border-border">
+    <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="mx-auto max-w-[90rem] px-6 py-2 md:px-10">
         <div className="relative flex items-center justify-between">
 
@@ -23,7 +19,7 @@ export default function Header() {
           <Link
             to="/"
             aria-label="Seven and a Half Questions home"
-            className="flex h-20 w-36 shrink-0 items-center justify-start"
+            className="ml-0 flex h-20 w-36 shrink-0 items-center justify-start xl:ml-60"
           >
             <img
               src="/assets/uploads/logo.png"
@@ -43,12 +39,12 @@ export default function Header() {
                 <Link
                   key={link.href}
                   to={link.href}
-                  className={`whitespace-nowrap rounded-full px-4 py-2.5 font-body font-bold transition-colors duration-150 2xl:px-5 ${
+                  className={`whitespace-nowrap rounded-full px-4 py-2.5 font-heading font-black transition-colors duration-150 2xl:px-5 ${
                     active
                       ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
                       : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
                   }`}
-                  style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+                  style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: '0.95rem', fontWeight: 900, letterSpacing: '0.02em' }}
                 >
                   {link.label}
                 </Link>
@@ -56,23 +52,23 @@ export default function Header() {
             })}
             <Link
               to="/newsletter"
-              className={`whitespace-nowrap rounded-full px-4 py-2.5 font-body font-bold transition-colors duration-150 2xl:px-5 ${
+              className={`whitespace-nowrap rounded-full px-4 py-2.5 font-heading font-black transition-colors duration-150 2xl:px-5 ${
                 location.pathname === '/newsletter'
                   ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
                   : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
               }`}
-              style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+              style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: '0.95rem', fontWeight: 900, letterSpacing: '0.02em' }}
             >
               Stay Connected
             </Link>
             <Link
               to="/ai-mentor"
-              className={`whitespace-nowrap rounded-full px-4 py-2.5 font-body font-bold transition-colors duration-150 2xl:px-5 ${
+              className={`whitespace-nowrap rounded-full px-4 py-2.5 font-heading font-black transition-colors duration-150 2xl:px-5 ${
                 location.pathname === '/ai-mentor'
                   ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
                   : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
               }`}
-              style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+              style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: '0.95rem', fontWeight: 900, letterSpacing: '0.02em' }}
             >
               Felix AI
             </Link>
@@ -103,12 +99,12 @@ export default function Header() {
                   key={link.href}
                   to={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className={`rounded-full px-5 py-3 font-body font-bold transition-colors ${
+                  className={`rounded-full px-5 py-3 font-heading font-black transition-colors ${
                     active
                       ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
                       : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
                   }`}
-                  style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+                  style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: '0.95rem', fontWeight: 900, letterSpacing: '0.02em' }}
                 >
                   {link.label}
                 </Link>
@@ -117,24 +113,24 @@ export default function Header() {
             <Link
               to="/newsletter"
               onClick={() => setMenuOpen(false)}
-              className={`rounded-full px-5 py-3 font-body font-bold transition-colors ${
+              className={`rounded-full px-5 py-3 font-heading font-black transition-colors ${
                 location.pathname === '/newsletter'
                   ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
                   : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
               }`}
-              style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+              style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: '0.95rem', fontWeight: 900, letterSpacing: '0.02em' }}
             >
               Stay Connected
             </Link>
             <Link
               to="/ai-mentor"
               onClick={() => setMenuOpen(false)}
-              className={`rounded-full px-5 py-3 font-body font-bold transition-colors ${
+              className={`rounded-full px-5 py-3 font-heading font-black transition-colors ${
                 location.pathname === '/ai-mentor'
                   ? 'bg-[hsl(var(--navy))] text-white shadow-sm'
                   : 'text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))]/10'
               }`}
-              style={{ fontSize: '0.95rem', letterSpacing: '0.02em' }}
+              style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: '0.95rem', fontWeight: 900, letterSpacing: '0.02em' }}
             >
               Felix AI
             </Link>

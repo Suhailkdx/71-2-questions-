@@ -2,9 +2,7 @@ import { Link } from 'react-router';
 
 const footerLinks = [
   { label: 'Interviews', href: '/episodes' },
-  { label: "The Writer's Studio", href: '/writers-studio' },
-  { label: 'About', href: '/host' },
-  { label: 'Dispatch', href: '/newsletter' },
+  { label: 'Stay Connected', href: '/newsletter' },
 ];
 
 export default function Footer() {

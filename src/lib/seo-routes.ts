@@ -33,11 +33,6 @@ export const seoRoutes: SeoRoute[] = [
   { path: "/", changefreq: "weekly", priority: 1.0 },
   { path: "/episodes", changefreq: "monthly", priority: 0.8 },
   { path: "/guests", changefreq: "monthly", priority: 0.8 },
-  { path: "/about", changefreq: "monthly", priority: 0.8 },
-  { path: "/host", changefreq: "monthly", priority: 0.8 },
-  { path: "/writers-studio", changefreq: "monthly", priority: 0.8 },
   { path: "/newsletter", changefreq: "monthly", priority: 0.8 },
-  { path: "/writing-ai", changefreq: "monthly", priority: 0.8 },
-  { path: "/writers-block", changefreq: "monthly", priority: 0.8 },
   { path: "/giving-half", changefreq: "monthly", priority: 0.8 },
 ];

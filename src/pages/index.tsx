@@ -54,7 +54,6 @@ export default function HomePage() {
           </header>
 
           <section className="profile-intro" aria-labelledby="profile-name">
-            <p className="profile-kicker">The Sunday Profile</p>
             <h2 id="profile-name">
               <span>Priscilla</span>
               <em>Beaton</em>
@@ -90,12 +89,6 @@ export default function HomePage() {
             <span />
             <span />
           </div>
-
-          <aside className="profile-quote">
-            <p className="profile-quote-label">In her own words</p>
-            <blockquote>“Sometimes, half a question can open a door that a whole one leaves closed.”</blockquote>
-            <span aria-hidden="true">?</span>
-          </aside>
 
           <section className="profile-biography" aria-label="Biography">
             {biography.map((paragraph, index) => (

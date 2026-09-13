@@ -99,6 +99,16 @@ export default function GivingHalfPage() {
                 >
                   {giving_half.intro.closing}
                 </p>
+
+                <a
+                  href="https://www.google.com/goto?url=CAESWwHrOzAVEllboY2r3twzFVXisWn87-x3FIH4I_c7wtQvbj9Yyfx9y1bXDbXbtdj9lnebXXYEuc-XKvUPVnZ1Nc5y4AHPcOvJryi_i9GwXKuDHDDgVBm7R1Ub9hk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex animate-pulse items-center justify-center rounded-full bg-[hsl(var(--navy))] px-8 py-3 font-heading font-black uppercase tracking-widest text-white shadow-sm hover:animate-none hover:opacity-90 focus-visible:animate-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--navy))] focus-visible:ring-offset-2"
+                  style={{ fontSize: '0.8rem', letterSpacing: '0.16em' }}
+                >
+                  Donate Now
+                </a>
               </motion.div>
 
               <motion.div

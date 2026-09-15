@@ -109,6 +109,11 @@ export default function EpisodesPage() {
                     >
                       {ep.guestName}
                     </h2>
+                    {ep.guestName === 'Dante Miller' ? (
+                      <p className="mb-2 font-body italic text-foreground" style={{ fontSize: '1rem' }}>
+                        aka &quot;Turbo Millz&quot;
+                      </p>
+                    ) : null}
                     <div className="mb-4 flex items-center gap-3">
                       {ep.duration ? (
                         <span

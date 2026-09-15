@@ -33,11 +33,6 @@ export default function HomePage() {
         <div className="profile-launch-bar">Launching Soon</div>
         <article className="profile-sheet">
           <header className="profile-masthead">
-            <div className="profile-meta">
-              <span>New York</span>
-              <span>Profile No. 01</span>
-            </div>
-
             <div className="profile-brand-lockup">
               <span className="profile-half-mark" aria-hidden="true">7½</span>
               <h1>
@@ -47,10 +42,7 @@ export default function HomePage() {
               </h1>
             </div>
 
-            <div className="profile-sections" aria-label="Seven and a Half sections">
-              <Link to="/episodes">Interviews</Link>
-              <span>Original Stories</span>
-            </div>
+            <div className="profile-section-rule" aria-hidden="true" />
           </header>
 
           <section className="profile-intro" aria-labelledby="profile-name">
@@ -110,6 +102,7 @@ export default function HomePage() {
                     <img src={episodeImages[index]} alt={`${episode.guestName} portrait`} loading="lazy" />
                   </div>
                   <h3>{episode.guestName}</h3>
+                  {episode.id === 'ep-dante' && <p className="profile-episode-alias">aka &quot;Turbo Millz&quot;</p>}
                   <span className="profile-coming-soon">
                     Coming Soon
                     <i aria-hidden="true" />

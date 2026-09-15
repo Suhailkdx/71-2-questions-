@@ -70,9 +70,7 @@ export default function GivingHalfPage() {
           <div className="mx-auto max-w-6xl px-6">
 
             {/* Ornamental divider */}
-            <div className="flex items-center gap-4 mb-12">
-              <span className="flex-1 h-px bg-border" />
-              <span className="text-muted-foreground" style={{ fontSize: '0.9rem' }}>✦</span>
+            <div className="flex items-center mb-12">
               <span className="flex-1 h-px bg-border" />
             </div>
 
@@ -131,9 +129,7 @@ export default function GivingHalfPage() {
             </div>
 
             {/* Ornamental divider */}
-            <div className="flex items-center gap-4 mt-16">
-              <span className="flex-1 h-px bg-border" />
-              <span className="text-muted-foreground" style={{ fontSize: '0.9rem' }}>✦</span>
+            <div className="flex items-center mt-16">
               <span className="flex-1 h-px bg-border" />
             </div>
 

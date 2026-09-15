@@ -406,28 +406,19 @@ export default function NewsletterPage() {
                     style={{ transformPerspective: 1000 }}
                   >
                 {/* Decorative rule */}
-                <div className="flex items-center gap-4 mb-8">
+                <div className="flex items-center mb-4">
                   <span className="font-body uppercase tracking-widest text-secondary" style={{ fontSize: '0.6rem', letterSpacing: '0.2em' }}>
                     For listeners
                   </span>
-                  <span className="font-body text-muted-foreground/40 select-none" style={{ fontSize: '0.55rem' }}>✦</span>
                 </div>
 
                 <h2 className="font-heading font-black text-foreground mb-3" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.2rem)', lineHeight: 1.1 }}>
                   {newsletter.newsletter.heading}
                 </h2>
-                <p className="font-body text-muted-foreground mb-8 leading-relaxed" style={{ fontSize: '0.9rem' }}>
-                  {newsletter.newsletter.description}
-                </p>
-
                 <NewsletterForm onSuccess={() => setNewsletterSubmitted(true)} />
                   </motion.div>
                 )}
               </motion.div>
-
-              <div className="mx-auto mt-12 w-fit bg-foreground px-10 py-4 text-center font-heading text-sm font-bold uppercase tracking-[0.18em] text-background shadow-[6px_6px_0_hsl(var(--border))]">
-                Sign up coming soon
-              </div>
 
               {false && (
               /* Guest pitch */
@@ -484,21 +475,12 @@ export default function NewsletterPage() {
           transition={{ duration: 0.5, ease: 'easeOut' as const }}
         >
           <div className="max-w-7xl mx-auto px-6 text-center">
-            {/* Ornamental rule */}
-            <div className="flex items-center justify-center gap-4 mb-8">
-              <span className="h-px w-12 bg-border" />
-              <span className="font-body text-muted-foreground/40 select-none" style={{ fontSize: '0.7rem', letterSpacing: '0.3em' }}>✦ ✦ ✦</span>
-              <span className="h-px w-12 bg-border" />
-            </div>
             <p className="font-body uppercase tracking-widest text-muted-foreground mb-4" style={{ fontSize: '0.6rem', letterSpacing: '0.2em' }}>
               {newsletter.contact.label}
             </p>
             <h2 className="font-heading font-black text-foreground mb-4" style={{ fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', lineHeight: 1.1 }}>
               {newsletter.contact.heading}
             </h2>
-            <p className="font-body text-muted-foreground mb-6 max-w-md mx-auto" style={{ fontSize: '0.9rem' }}>
-              {newsletter.contact.description}
-            </p>
             <a
               href={`mailto:${newsletter.contact.email}`}
               className="font-heading font-bold text-primary hover:text-accent transition-colors"

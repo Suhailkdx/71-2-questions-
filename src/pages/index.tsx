@@ -34,7 +34,6 @@ export default function HomePage() {
         <article className="profile-sheet">
           <header className="profile-masthead">
             <div className="profile-brand-lockup">
-              <span className="profile-half-mark" aria-hidden="true">7½</span>
               <h1>
                 <span>Seven</span>
                 <em>and a Half</em>
@@ -62,7 +61,6 @@ export default function HomePage() {
           </section>
 
           <figure className="profile-portrait-block">
-            <span className="profile-watermark" aria-hidden="true">1½</span>
             <div className="profile-photo-frame">
               <img
                 src="/assets/uploads/port 2.png"

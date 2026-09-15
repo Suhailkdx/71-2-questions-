@@ -36,15 +36,6 @@ export default function AIMentorPage() {
                 <span className="h-px flex-1 bg-border" />
               </div>
 
-              <h1
-                className="mb-8 font-heading font-black leading-none text-foreground"
-                style={{ fontSize: 'clamp(3.5rem, 9vw, 7.5rem)', fontWeight: 900, lineHeight: 0.88, letterSpacing: '-0.03em' }}
-              >
-                AI
-                <br />
-                <span className="text-accent">anything.</span>
-              </h1>
-
               <p
                 className="mb-6 max-w-2xl font-body leading-relaxed text-foreground/75"
                 style={{ fontSize: 'clamp(1.05rem, 2vw, 1.25rem)', lineHeight: 1.8 }}

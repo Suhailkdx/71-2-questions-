@@ -545,26 +545,19 @@
   .profile-deck { max-width: 31ch; }
   .profile-deck { margin-left: auto !important; }
   .profile-descriptors { max-width: 47rem; margin-left: auto; margin-right: auto; }
-  .profile-portrait-block { width: min(62%, 34rem); margin-top: 15rem; margin-left: auto; margin-right: auto; }
+  .profile-portrait-block { width: min(62%, 34rem); margin-top: 10rem; margin-left: auto; margin-right: auto; }
 }
 
 @media (max-width: 767px) {
   .profile-sheet { padding-top: 1.25rem; }
   .profile-meta { letter-spacing: 0.17em; }
   .profile-brand-lockup {
-    display: grid;
-    grid-template-columns: 5.5rem minmax(0, 1fr);
-    align-items: center;
-    gap: 1rem;
+    display: flex;
+    justify-content: center;
   }
   .profile-brand-lockup h1 {
-    justify-content: start;
+    justify-content: center;
     font-size: clamp(2.55rem, 12vw, 3.75rem);
-  }
-  .profile-half-mark {
-    position: static;
-    font-size: clamp(3rem, 14vw, 4.25rem);
-    transform: rotate(-7deg);
   }
   .profile-sections { padding: 1.15rem 1rem; letter-spacing: 0.16em; }
   .profile-intro h2 { font-size: clamp(4.5rem, 21vw, 7rem); }
